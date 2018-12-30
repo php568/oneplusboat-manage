@@ -1,11 +1,11 @@
 <?php
 /*system*/
-$lang['system_author'] = 'LIUS';
-$lang['system_name'] = 'LIUS';
+$lang['system_author'] = 'Oneplus Boat';
+$lang['system_name'] = 'Oneplus Boat';
 $lang['system_adminname'] = 'Management Center';
-$lang['system_link'] = 'http://www.liusgear.com';
-$lang['system_version'] = '2.0';
-$lang['system_copy'] = '© 2017 LIUS & SHENGRUI';
+$lang['system_link'] = 'http://www.oneplusboat.com';
+$lang['system_version'] = '3.0';
+$lang['system_copy'] = '© 2019 Oneplus Boat';
 
 /*page*/
 $lang['first_page'] = 'Home';
@@ -113,7 +113,7 @@ $lang['attribute'] = 'Attribute';
 
 //mail
 $lang['c_emailtitle'] = 'GET IN TOUCH';
-$lang['c_emailadminsend'] = 'LIUS';
+$lang['c_emailadminsend'] = 'Oneplus Boat';
 $lang['c_emailadmincontent'] = "<table class='outer-table' border='0' cellspacing='0' cellpadding='0' width='552' style='border:1px solid #dedede;border-bottom:2px solid #dedede;margin:0 auto;background-color:#ffffff;'>".
 								"<tbody>".
 								"    <tr>".

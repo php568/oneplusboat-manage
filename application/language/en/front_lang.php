@@ -1,11 +1,11 @@
 <?php
 /*system*/
-$lang['system_author'] = 'LIUS';
-$lang['system_name'] = 'LIUS';
+$lang['system_author'] = 'oneplusboat';
+$lang['system_name'] = 'oneplusboat';
 $lang['system_adminname'] = 'Management Center';
-$lang['system_link'] = 'http://www.liusgear.com';
-$lang['system_version'] = '1.0';
-$lang['system_copy'] = '© 2013 LIUS';
+$lang['system_link'] = 'http://www.oneplusboat.com';
+$lang['system_version'] = '3.0';
+$lang['system_copy'] = '© 2019 Oneplus Boat';
 
 /*page*/
 $lang['first_page'] = 'Home';

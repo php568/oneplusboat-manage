@@ -27,7 +27,7 @@
             </div>
         </div>
         <div class="header-right">
-        	<div class="language"><a href="http://www.liusgear.com/index.php?lang=zh_cn" target="_blank">CH</a>|<a href="#" target="_blank">EN</a></div>
+        	<div class="language"><a href="http://www.oneplusboat.com/index.php?lang=zh_cn" target="_blank">CH</a>|<a href="#" target="_blank">EN</a></div>
         	<div class="search">
 				<?=x6cms_productsearch()?>
             </div>
