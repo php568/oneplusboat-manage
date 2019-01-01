@@ -222,8 +222,6 @@ class Category extends CI_Controller {
 		$tpl='product_list2';
 		$this->load->view($config['site_template'].'/'.$tpl,$res);
 	}
-
-
 	
 	private function tpllist($thiscategory){
 		
@@ -316,6 +314,7 @@ class Category extends CI_Controller {
 				'category'=>$thiscategory
 		);
 		$tpl = $thiscategory['tpldetail']==''?$thiscategory['model']:$thiscategory['tpldetail'];
+
 		$this->load->view($config['site_template'].'/'.$tpl,$res);
 	}
 	

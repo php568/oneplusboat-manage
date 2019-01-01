@@ -1,12 +1,22 @@
-	<div class="footer">
-    	<div class="copyright"><?=lang('system_copy')?></div>
-        <div class="footer-right">
-        	<a href="#" title="" class="fra1 pngfix"></a>
-            <a href="#" title="" class="fra2 pngfix"></a>
-            <a href="#" title="" class="fra3 pngfix"></a>
-        </div>
-	</div>
+
+<div class="region region-bottom">
+  <div id="block-menu-menu-footer-menu" class="block block-menu first odd" role="navigation">
+    <ul class="menu">
+      <li class="menu__item is-leaf first leaf"><a href="about-us.html" class="menu__link">About Us</a></li>
+      <li class="menu__item is-leaf leaf"><a href="parts.html" class="menu__link">Parts</a></li>
+      <li class="menu__item is-leaf last leaf"><a href="contact-us.html" class="menu__link">Contact Us</a></li>
+    </ul>
+  </div>
+  <div id="block-block-1" class="block block-block last even">
+    <div>© 2018-2019 Onplus Boat</div>
+    <div itemscope itemtype="">
+      <span itemprop="name">Onplus Boat</span>,
+      <span itemprop="streetAddress">Room 201 Building #19,Yinchun Rd No.1800</span>,
+      <span itemprop="addressLocality">Minhang District</span>,
+      <span itemprop="addressRegion">Shanghai</span>,
+      <span itemprop="addressCountry">China</span>
+    </div>
+  </div>
 </div>
-<script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cdiv id='cnzz_stat_icon_1000055070'%3E%3C/div%3E%3Cscript src='" + cnzz_protocol + "s22.cnzz.com/z_stat.php%3Fid%3D1000055070%26show%3Dpic' type='text/javascript'%3E%3C/script%3E"));</script>
 </body>
 </html>

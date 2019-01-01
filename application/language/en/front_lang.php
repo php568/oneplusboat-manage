@@ -3,7 +3,7 @@
 $lang['system_author'] = 'oneplusboat';
 $lang['system_name'] = 'oneplusboat';
 $lang['system_adminname'] = 'Management Center';
-$lang['system_link'] = 'http://www.oneplusboat.com';
+$lang['system_link'] = $config['base_url'];
 $lang['system_version'] = '3.0';
 $lang['system_copy'] = '© 2019 Oneplus Boat';
 

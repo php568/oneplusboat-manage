@@ -32,7 +32,7 @@ class Home extends CI_Controller {
 				
 			}else{
 				setcookie("lf_lang", $lang,time()+600); 
-				header('Location:http://www.oneplusboat.com/index.php?lang=zh_cn');
+				header('Location:'.$config['base_url'].'index.php?lang=zh_cn');
 			}
 		
 		}elseif (preg_match("/en/i", $lang))
@@ -43,7 +43,7 @@ class Home extends CI_Controller {
 			}else
 			{
 				setcookie("lf_lang", $lang,time()+600); 
-				header('Location:http://www.oneplusboat.com/');
+				header('Location:'.$config['base_url']);
 			}
 			
 		}
