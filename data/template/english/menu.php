@@ -1,13 +1,11 @@
-<p id="skip-link">
-  <a href="#main-menu" class="element-invisible element-focusable">Jump to navigation</a>
-</p>
 <header class="header" id="header" role="banner">
   <div class="header-inner">
     <a href="/" title="Home" rel="home" class="header__logo" id="logo"><img
-          src="<?=$config['site_templateurl'];?>/sites/default/files/ibi_logo_0.png" alt="Home"
+          src="http://47.91.86.81/sites/default/files/ibi_logo_0.png" alt="Home"
           class="header__logo-image"/></a>
     <div class="header__region region region-header">
       <div id="block-tb-megamenu-main-menu" class="block block-tb-megamenu first last odd">
+        <div class="language"><a href="http://47.91.86.81/zh-cn/index.html">CH</a>&nbsp;|&nbsp;<a href="#">EN</a></div>
         <div data-duration="400" data-delay="200" id="tb-megamenu-main-menu"
              class="tb-megamenu tb-megamenu-main-menu style-blue animate elastic">
           <button data-target=".nav-collapse" data-toggle="collapse" class="btn btn-navbar tb-megamenu-button"
@@ -19,7 +17,7 @@
               <li data-id="000" data-level="1" data-type="menu_item" data-class="" data-xicon=""
                   data-caption="" data-alignsub="justify" data-group="0" data-hidewcol="0"
                   data-hidesub="0" class="tb-megamenu-item level-1 mega mega-align-justify dropdown">
-                <a href="index.html" class="dropdown-toggle">
+                <a href="/index.html" class="dropdown-toggle">
                   Home <span class="caret1"></span>
                 </a>
               </li>
@@ -42,35 +40,35 @@
                             <div class="block-inner">
                               <div id="block-views-menu-blocks-block"
                                    class="block block-views first odd">
-                                <h2 class="block__title block-title">Boats</h2>
+                                <!--<h2 class="block__title block-title">Boats</h2>-->
                                 <div class="view view-menu-blocks view-id-menu_blocks view-display-id-block view-dom-id-3e1c4ada56ed6abc52801663a711f0c5">
                                   <div class="view-content">
                                     <div class="views-row views-row-1 views-row-odd views-row-first">
 
                                       <div class="views-field views-field-name">
                                                                                 <span class="field-content"><a
-                                                                                      href="optimist-racer.html">OnePlus Optimist Racer</a></span>
+                                                                                      href="/optimist-racer.html">OnePlus Optimist Racer</a></span>
                                       </div>
                                     </div>
                                     <div class="views-row views-row-2 views-row-even">
 
                                       <div class="views-field views-field-name">
                                                                                 <span class="field-content"><a
-                                                                                      href="opti-trainer.html">OnePlus Opti Trainer</a></span>
+                                                                                      href="/optimist-trainer.html">OnePlus Optimist Trainer</a></span>
                                       </div>
                                     </div>
                                     <div class="views-row views-row-3 views-row-odd">
 
                                       <div class="views-field views-field-name">
                                                                                 <span class="field-content"><a
-                                                                                      href="pe-polyethylene-opti.html">OnePlus PE-Polyethylene Opti</a></span>
+                                                                                      href="/pe-polyethylene-opti.html">OnePlus PE-Polyethylene Opti</a></span>
                                       </div>
                                     </div>
                                     <div class="views-row views-row-4 views-row-even views-row-last">
 
                                       <div class="views-field views-field-name">
                                                                                 <span class="field-content"><a
-                                                                                      href="parts.html">Parts</a></span>
+                                                                                      href="/parts.html">Parts</a></span>
                                       </div>
                                     </div>
                                   </div>
@@ -88,7 +86,7 @@
               <li data-id="885" data-level="1" data-type="menu_item" data-class="" data-xicon=""
                   data-caption="" data-alignsub="right" data-group="0" data-hidewcol="0" data-hidesub="0"
                   class="tb-megamenu-item level-1 mega mega-align-right dropdown">
-                <a href="blog-list.html" class="dropdown-toggle">
+                <a href="/news-list.html" class="dropdown-toggle">
                   News <span class="caret1"></span>
                 </a>
               </li>
@@ -96,7 +94,7 @@
               <li data-id="897" data-level="1" data-type="menu_item" data-class="" data-xicon=""
                   data-caption="" data-alignsub="right" data-group="0" data-hidewcol="0" data-hidesub="0"
                   class="tb-megamenu-item level-1 mega mega-align-right dropdown">
-                <a href="dealers.html" class="dropdown-toggle">
+                <a href="/dealers.html" class="dropdown-toggle">
                   Dealers <span class="caret1"></span>
                 </a>
               </li>
@@ -104,7 +102,7 @@
               <li data-id="907" data-level="1" data-type="menu_item" data-class="" data-xicon=""
                   data-caption="" data-alignsub="right" data-group="0" data-hidewcol="0" data-hidesub="0"
                   class="tb-megamenu-item level-1 mega mega-align-right dropdown">
-                <a href="about-us.html" class="dropdown-toggle">
+                <a href="/about-us.html" class="dropdown-toggle">
                   About Us <span class="caret1"></span>
                 </a>
               </li>
@@ -112,7 +110,7 @@
               <li data-id="1040" data-level="1" data-type="menu_item" data-class="" data-xicon=""
                   data-caption="" data-alignsub="justify" data-group="0" data-hidewcol="0"
                   data-hidesub="0" class="tb-megamenu-item level-1 mega mega-align-justify dropdown">
-                <a href="contact-us.html" class="dropdown-toggle">
+                <a href="/contact-us.html" class="dropdown-toggle">
                   Contact Us<span class="caret1"></span>
                 </a>
               </li>
