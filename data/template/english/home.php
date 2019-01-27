@@ -10,8 +10,9 @@
 <!--[if (gte IE 9)|(gt IEMobile 7)]><!-->
 <html lang="en">
 <!--<![endif]-->
-
+<?php var_export($config); ?>
 <?php $this->load->view($config['site_template'].'/head');?>
+
   <link type="text/css" rel="stylesheet" href="<?=$config['site_templateurl'];?>/css/home.css" media="all"/>
 
   <body class="html front not-logged-in one-sidebar sidebar-second page-homepage page-views">
@@ -19,8 +20,7 @@
     <a href="#main-menu" class="element-invisible element-focusable">Jump to navigation</a>
   </p>
 
-<?php $this->load->view($config['site_template'].'/menu');?>
-
+  <?php $this->load->view($config['site_template'].'/menu');?>
 
   <div id="page">
 
@@ -224,6 +224,7 @@
                                     <span class="field-content">
                                         <a href="/news-list.html">
                                             2019 New Year Greetings
+                                        </a>
                                     </span>
                   </div>
                 </div>
@@ -235,9 +236,7 @@
     </div>
   </div>
 
-<?php $this->load->view($config['site_template'].'/foot');?>
-
-
+  <?php $this->load->view($config['site_template'].'/foot');?>
   <script id="video-image" type="text/html">
     <ul class="layui-row layui-col-space10">
       {{#  layui.each(d.list, function(index, item){ }}

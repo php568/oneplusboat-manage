@@ -1,3 +1,4 @@
+
 <head>
   <!--[if IE]><![endif]-->
   <meta charset="utf-8"/>
@@ -19,9 +20,8 @@
 
   <meta name="MobileOptimized" content="width">
   <meta name="HandheldFriendly" content="true">
-  <meta name="viewport" content="width=device-width">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
   <meta http-equiv="cleartype" content="on">
-
   <link type="text/css" rel="stylesheet"
         href="http://118.25.5.174:8001/sites/default/files/advagg_css/css__41zUXBKOEU372pSLHsdFExY9LtvKhniLfUsKL_Avbjk__7euyz90bSKg0_ANgftc3Xf4J_mjPAPtaVr8knRIl6Tc__ajtl5luqwPIno5HZrQI719QK_aLTjJ2u5I7jOUzzXOI.css" media="all"/>
   <link type="text/css" rel="stylesheet"
@@ -30,4 +30,5 @@
         href="http://118.25.5.174:8001/sites/default/files/advagg_css/css__Mj-bIy5ZdhbjdVA7pHj7Qe9m1oxe9CofTDqdsAN1VkQ__3prFeLb_afdguwIlPlT7j2yNOxXL1V-zHkJXtlD9PY0__ajtl5luqwPIno5HZrQI719QK_aLTjJ2u5I7jOUzzXOI.css" media="all"/>
   <link type="text/css" rel="stylesheet" href="http://118.25.5.174:8001/videojs/video-js.css" />
   <link type="text/css" rel="stylesheet" href="http://118.25.5.174:8001/layui/css/layui.css" media="all" />
+  <link type="text/css" rel="stylesheet" href="http://118.25.5.174:8001/css/home.css" />
 </head>
