@@ -50,7 +50,7 @@ $active_record = TRUE;
 
 $db['default']['hostname']='127.0.0.1';//'10.0.254.201';
 $db['default']['username']='root';
-$db['default']['password']='Jiaoqinqin_916';
+$db['default']['password']='123456';
 $db['default']['database']='oneplusboat';
 $db['default']['dbdriver']='mysqli';
 $db['default']['dbprefix']='cms_';
