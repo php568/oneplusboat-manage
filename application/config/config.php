@@ -14,7 +14,7 @@
 | path to your installation.
 |
 */
-$config['base_url']	= 'http://118.25.5.174:8001/';
+$config['base_url']	= 'http://www.softsun.cn/';
 
 /*
 |--------------------------------------------------------------------------

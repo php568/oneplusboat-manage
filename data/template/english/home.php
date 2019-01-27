@@ -10,7 +10,7 @@
 <!--[if (gte IE 9)|(gt IEMobile 7)]><!-->
 <html lang="en">
 <!--<![endif]-->
-<?php var_export($config); ?>
+
 <?php $this->load->view($config['site_template'].'/head');?>
 
   <link type="text/css" rel="stylesheet" href="<?=$config['site_templateurl'];?>/css/home.css" media="all"/>
@@ -251,10 +251,10 @@
       {{#  } }}
     </ul>
   </script>
-  <script charset="utf-8" src="http://118.25.5.174:8001/videojs/video.js"></script>
-  <script charset="utf-8" src="http://118.25.5.174:8001/layui/layui.all.js"></script>
+  <script charset="utf-8" src="<?=$config['site_templateurl'];?>/videojs/video.js"></script>
+  <script charset="utf-8" src="<?=$config['site_templateurl'];?>/layui/layui.all.js"></script>
   <script>window.HELP_IMPROVE_VIDEOJS = false; jQuery = layui.jquery</script>
   <!--<script charset="utf-8" src="http://118.25.5.174:8001/lazyload/jquery.lazyload.min.js"></script>-->
-  <script charset="utf-8" src="http://118.25.5.174:8001/js/home.js"></script>
+  <script charset="utf-8" src="<?=$config['site_templateurl'];?>/js/home.js"></script>
   </body>
 </html>
