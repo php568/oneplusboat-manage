@@ -142,7 +142,7 @@
                 <div id="intro-1" class="views-field views-field-body">
                   <div class="field-content">
                     <video id="index-video" class="video-js vjs-big-play-centered" controls preload="auto" width="100%"
-                           poster="sites/default/files/video/index-1.jpg" data-setup="{}">
+                           poster="<?=$config['site_templateurl'];?>/sites/default/files/video/index-1.jpg" data-setup="{}">
                       <!--<source src="sites/default/files/video/index-1.mp4" type='video/mp4'>-->
                       <p class="vjs-no-js">
                         To view this video please enable JavaScript, and consider upgrading to a web browser that
@@ -254,7 +254,7 @@
   <script charset="utf-8" src="<?=$config['site_templateurl'];?>/videojs/video.js"></script>
   <script charset="utf-8" src="<?=$config['site_templateurl'];?>/layui/layui.all.js"></script>
   <script>window.HELP_IMPROVE_VIDEOJS = false; jQuery = layui.jquery</script>
-  <!--<script charset="utf-8" src="http://118.25.5.174:8001/lazyload/jquery.lazyload.min.js"></script>-->
+  <!--<script charset="utf-8" src="<?=$config['site_templateurl'];?>/lazyload/jquery.lazyload.min.js"></script>-->
   <script charset="utf-8" src="<?=$config['site_templateurl'];?>/js/home.js"></script>
   </body>
 </html>
