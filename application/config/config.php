@@ -14,7 +14,7 @@
 | path to your installation.
 |
 */
-$config['base_url']	= 'http://www.oneplusboat.com/';
+$config['base_url']	= 'http://47.91.86.81/';
 
 /*
 |--------------------------------------------------------------------------
@@ -235,7 +235,7 @@ $config['cache_path'] = 'data/cache/';
 | MUST set an encryption key.  See the user guide for info.
 |
 */
-$config['encryption_key'] = 'xiaolcms';
+$config['encryption_key'] = 'softsun';
 /*
 |--------------------------------------------------------------------------
 | Session Variables
@@ -254,7 +254,7 @@ $config['encryption_key'] = 'xiaolcms';
 | 'sess_time_to_update'		= how many seconds between CI refreshing Session Information
 |
 */
-$config['sess_cookie_name']		= 'xiaol8888cmssession';
+$config['sess_cookie_name']		= 'softsunsession';
 $config['sess_expiration']		= 86400;
 $config['sess_expire_on_close']	= TRUE;
 $config['sess_encrypt_cookie']	= FALSE;
