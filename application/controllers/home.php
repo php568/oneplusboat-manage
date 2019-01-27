@@ -6,7 +6,7 @@ class Home extends CI_Controller {
 		$this->Cache_model->setLang($this->input->get());
 		$this->Lang_model->loadLang('front',$this->Cache_model->currentLang);
 		if($this->uri->segment(1)){
-			show_404();
+//			show_404();
 		}
 		$this->load->helper('tags');
 	}
