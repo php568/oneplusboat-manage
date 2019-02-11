@@ -41,98 +41,98 @@
                     <li>
                       <div class="views-field views-field-field-slide-image">
                         <div class="field-content">
-                          <img typeof="foaf:Image" src="http://admin.oneplusboat.com/sites/default/files/690x428/1.jpg" data-original="http://admin.oneplusboat.com/sites/default/files/690x428/1.jpg" width="690" height="428" alt=""/>
+                          <img typeof="foaf:Image" src="<?=$config['site_templateurl'];?>/sites/default/files/690x428/1.jpg" data-original="<?=$config['site_templateurl'];?>/sites/default/files/690x428/1.jpg" width="690" height="428" alt=""/>
                         </div>
                       </div>
                     </li>
                     <li>
                       <div class="views-field views-field-field-slide-image">
                         <div class="field-content">
-                          <img typeof="foaf:Image" src="http://admin.oneplusboat.com/sites/default/files/690x428/2.jpg" data-original="http://admin.oneplusboat.com/sites/default/files/690x428/2.jpg" width="690" height="428" alt=""/>
+                          <img typeof="foaf:Image" src="<?=$config['site_templateurl'];?>/sites/default/files/690x428/2.jpg" data-original="<?=$config['site_templateurl'];?>/sites/default/files/690x428/2.jpg" width="690" height="428" alt=""/>
                         </div>
                       </div>
                     </li>
                     <li>
                       <div class="views-field views-field-field-slide-image">
                         <div class="field-content">
-                          <img typeof="foaf:Image" src="http://admin.oneplusboat.com/sites/default/files/690x428/3.jpg" data-original="http://admin.oneplusboat.com/sites/default/files/690x428/3.jpg" width="690" height="428" alt=""/>
+                          <img typeof="foaf:Image" src="<?=$config['site_templateurl'];?>/sites/default/files/690x428/3.jpg" data-original="<?=$config['site_templateurl'];?>/sites/default/files/690x428/3.jpg" width="690" height="428" alt=""/>
                         </div>
                       </div>
                     </li>
                     <li>
                       <div class="views-field views-field-field-slide-image">
                         <div class="field-content">
-                          <img typeof="foaf:Image" src="http://admin.oneplusboat.com/sites/default/files/690x428/4.jpg" data-original="http://admin.oneplusboat.com/sites/default/files/690x428/4.jpg" width="690" height="428" alt=""/>
+                          <img typeof="foaf:Image" src="<?=$config['site_templateurl'];?>/sites/default/files/690x428/4.jpg" data-original="<?=$config['site_templateurl'];?>/sites/default/files/690x428/4.jpg" width="690" height="428" alt=""/>
                         </div>
                       </div>
                     </li>
                     <li>
                       <div class="views-field views-field-field-slide-image">
                         <div class="field-content">
-                          <img typeof="foaf:Image" src="http://admin.oneplusboat.com/sites/default/files/690x428/5.jpg" data-original="http://admin.oneplusboat.com/sites/default/files/690x428/5.jpg" width="690" height="428" alt=""/>
+                          <img typeof="foaf:Image" src="<?=$config['site_templateurl'];?>/sites/default/files/690x428/5.jpg" data-original="<?=$config['site_templateurl'];?>/sites/default/files/690x428/5.jpg" width="690" height="428" alt=""/>
                         </div>
                       </div>
                     </li>
                     <li>
                       <div class="views-field views-field-field-slide-image">
                         <div class="field-content">
-                          <img typeof="foaf:Image" src="http://admin.oneplusboat.com/sites/default/files/690x428/6.jpg" data-original="http://admin.oneplusboat.com/sites/default/files/690x428/6.jpg" width="690" height="428" alt=""/>
+                          <img typeof="foaf:Image" src="<?=$config['site_templateurl'];?>/sites/default/files/690x428/6.jpg" data-original="<?=$config['site_templateurl'];?>/sites/default/files/690x428/6.jpg" width="690" height="428" alt=""/>
                         </div>
                       </div>
                     </li>
                     <li>
                       <div class="views-field views-field-field-slide-image">
                         <div class="field-content">
-                          <img typeof="foaf:Image" src="http://admin.oneplusboat.com/sites/default/files/690x428/7.jpg" data-original="http://admin.oneplusboat.com/sites/default/files/690x428/7.jpg" width="690" height="428" alt=""/>
+                          <img typeof="foaf:Image" src="<?=$config['site_templateurl'];?>/sites/default/files/690x428/7.jpg" data-original="<?=$config['site_templateurl'];?>/sites/default/files/690x428/7.jpg" width="690" height="428" alt=""/>
                         </div>
                       </div>
                     </li>
                     <li>
                       <div class="views-field views-field-field-slide-image">
                         <div class="field-content">
-                          <img typeof="foaf:Image" src="http://admin.oneplusboat.com/sites/default/files/690x428/8.jpg" data-original="http://admin.oneplusboat.com/sites/default/files/690x428/8.jpg" width="690" height="428" alt=""/>
+                          <img typeof="foaf:Image" src="<?=$config['site_templateurl'];?>/sites/default/files/690x428/8.jpg" data-original="<?=$config['site_templateurl'];?>/sites/default/files/690x428/8.jpg" width="690" height="428" alt=""/>
                         </div>
                       </div>
                     </li>
                     <li>
                       <div class="views-field views-field-field-slide-image">
                         <div class="field-content">
-                          <img typeof="foaf:Image" src="http://admin.oneplusboat.com/sites/default/files/690x428/9.jpg" data-original="http://admin.oneplusboat.com/sites/default/files/690x428/9.jpg" width="690" height="428" alt=""/>
+                          <img typeof="foaf:Image" src="<?=$config['site_templateurl'];?>/sites/default/files/690x428/9.jpg" data-original="<?=$config['site_templateurl'];?>/sites/default/files/690x428/9.jpg" width="690" height="428" alt=""/>
                         </div>
                       </div>
                     </li>
                     <li>
                       <div class="views-field views-field-field-slide-image">
                         <div class="field-content">
-                          <img typeof="foaf:Image" src="http://admin.oneplusboat.com/sites/default/files/690x428/10.jpg" data-original="http://admin.oneplusboat.com/sites/default/files/690x428/10.jpg" width="690" height="428" alt=""/>
+                          <img typeof="foaf:Image" src="<?=$config['site_templateurl'];?>/sites/default/files/690x428/10.jpg" data-original="<?=$config['site_templateurl'];?>/sites/default/files/690x428/10.jpg" width="690" height="428" alt=""/>
                         </div>
                       </div>
                     </li>
                     <li>
                       <div class="views-field views-field-field-slide-image">
                         <div class="field-content">
-                          <img typeof="foaf:Image" src="http://admin.oneplusboat.com/sites/default/files/690x428/11.jpg" data-original="http://admin.oneplusboat.com/sites/default/files/690x428/11.jpg" width="690" height="428" alt=""/>
+                          <img typeof="foaf:Image" src="<?=$config['site_templateurl'];?>/sites/default/files/690x428/11.jpg" data-original="<?=$config['site_templateurl'];?>/sites/default/files/690x428/11.jpg" width="690" height="428" alt=""/>
                         </div>
                       </div>
                     </li>
                     <li>
                       <div class="views-field views-field-field-slide-image">
                         <div class="field-content">
-                          <img typeof="foaf:Image" src="http://admin.oneplusboat.com/sites/default/files/690x428/12.jpg" data-original="http://admin.oneplusboat.com/sites/default/files/690x428/12.jpg" width="690" height="428" alt=""/>
+                          <img typeof="foaf:Image" src="<?=$config['site_templateurl'];?>/sites/default/files/690x428/12.jpg" data-original="<?=$config['site_templateurl'];?>/sites/default/files/690x428/12.jpg" width="690" height="428" alt=""/>
                         </div>
                       </div>
                     </li>
                     <li>
                       <div class="views-field views-field-field-slide-image">
                         <div class="field-content">
-                          <img typeof="foaf:Image" src="http://admin.oneplusboat.com/sites/default/files/690x428/13.jpg" data-original="http://admin.oneplusboat.com/sites/default/files/690x428/13.jpg" width="690" height="428" alt=""/>
+                          <img typeof="foaf:Image" src="<?=$config['site_templateurl'];?>/sites/default/files/690x428/13.jpg" data-original="<?=$config['site_templateurl'];?>/sites/default/files/690x428/13.jpg" width="690" height="428" alt=""/>
                         </div>
                       </div>
                     </li>
                     <li>
                       <div class="views-field views-field-field-slide-image">
                         <div class="field-content">
-                          <img typeof="foaf:Image" src="http://admin.oneplusboat.com/sites/default/files/690x428/14.jpg" data-original="http://admin.oneplusboat.com/sites/default/files/690x428/14.jpg" width="690" height="428" alt=""/>
+                          <img typeof="foaf:Image" src="<?=$config['site_templateurl'];?>/sites/default/files/690x428/14.jpg" data-original="<?=$config['site_templateurl'];?>/sites/default/files/690x428/14.jpg" width="690" height="428" alt=""/>
                         </div>
                       </div>
                     </li>
@@ -142,8 +142,8 @@
                 <div id="intro-1" class="views-field views-field-body">
                   <div class="field-content">
                     <video id="index-video" class="video-js vjs-big-play-centered" controls preload="auto" width="100%"
-                           poster="sites/default/files/video/index-1.jpg" data-setup="{}">
-                      <!--<source src="sites/default/files/video/index-1.mp4" type='video/mp4'>-->
+                           poster="<?=$config['site_templateurl'];?>/sites/default/files/video/index-1.jpg" data-setup="{}">
+                      <!--<source src="<?=$config['site_templateurl'];?>/sites/default/files/video/index-1.mp4" type='video/mp4'>-->
                       <p class="vjs-no-js">
                         To view this video please enable JavaScript, and consider upgrading to a web browser that
                         <a href="https://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
@@ -152,8 +152,8 @@
                   </div>
                   <div class="field-content" id="video-view">
                   </div>
-                  <div class="but_left"><img src="http://admin.oneplusboat.com/sites/all/themes/racingdinghies/images/left-arrow.png"  data-original="http://admin.oneplusboat.com/sites/all/themes/racingdinghies/images/left-arrow.png" /></div>
-                  <div class="but_right"><img src="http://admin.oneplusboat.com/sites/all/themes/racingdinghies/images/right-arrow.png"  data-original="http://admin.oneplusboat.com/sites/all/themes/racingdinghies/images/right-arrow.png" /></div>
+                  <div class="but_left"><img src="<?=$config['site_templateurl'];?>/sites/all/themes/racingdinghies/images/left-arrow.png"  data-original="<?=$config['site_templateurl'];?>/sites/all/themes/racingdinghies/images/left-arrow.png" /></div>
+                  <div class="but_right"><img src="<?=$config['site_templateurl'];?>/sites/all/themes/racingdinghies/images/right-arrow.png"  data-original="<?=$config['site_templateurl'];?>/sites/all/themes/racingdinghies/images/right-arrow.png" /></div>
                 </div>
               </div>
 
@@ -175,28 +175,28 @@
                     <div class="field-item">
                       <a href="parts.html">
                         <img typeof="foaf:Image"
-                             src="http://admin.oneplusboat.com/sites/default/files/parts/190x120/OPBS302 Sleeve School Sail.jpg"
+                             src="<?=$config['site_templateurl'];?>/sites/default/files/parts/190x120/OPBS302 Sleeve School Sail.jpg"
                              width="120" alt="OPBS302 Sleeve School Sail" title="OPBS302 Sleeve School Sail"/>
                       </a>
                     </div>
                     <div class="field-item">
                       <a href="parts.html">
                         <img typeof="foaf:Image"
-                             src="http://admin.oneplusboat.com/sites/default/files/parts/190x120/OPBS303 Eyelet School Sail.jpg"
+                             src="<?=$config['site_templateurl'];?>/sites/default/files/parts/190x120/OPBS303 Eyelet School Sail.jpg"
                              width="120" alt="OPBS303 Eyelet School Sail" title="OPBS303 Eyelet School Sail"/>
                       </a>
                     </div>
                     <div class="field-item">
                       <a href="parts.html">
                         <img typeof="foaf:Image"
-                             src="http://admin.oneplusboat.com/sites/default/files/parts/190x120/OPBS401 GRP School Daggerboard.jpg"
+                             src="<?=$config['site_templateurl'];?>/sites/default/files/parts/190x120/OPBS401 GRP School Daggerboard.jpg"
                              width="120" alt="OPBS401 GRP School Daggerboard" title="OPBS401 GRP School Daggerboard"/>
                       </a>
                     </div>
                     <div class="field-item">
                       <a href="parts.html">
                         <img typeof="foaf:Image"
-                             src="http://admin.oneplusboat.com/sites/default/files/parts/190x120/OPBS402 GRP School Rudder, Tiller& Tiller Extension.jpg"
+                             src="<?=$config['site_templateurl'];?>/sites/default/files/parts/190x120/OPBS402 GRP School Rudder, Tiller& Tiller Extension.jpg"
                              width="120" alt="OPBS402 GRP School Rudder, Tiller& Tiller Extension" title="OPBS402 GRP School Rudder, Tiller& Tiller Extension"/>
                       </a>
                     </div>
@@ -215,7 +215,7 @@
                     <div class="field-content">
                       <a href="/news-list.html" target="_blank">
                         <img typeof="foaf:Image"
-                             src="http://admin.oneplusboat.com/sites/default/files/news.jpg"
+                             src="<?=$config['site_templateurl'];?>/sites/default/files/news.jpg"
                              width="270" height="175" alt="2019 New Year Greetings"/>
                       </a>
                     </div>
@@ -252,10 +252,10 @@
       {{#  } }}
     </ul>
   </script>
-  <script charset="utf-8" src="http://admin.oneplusboat.com/videojs/video.js"></script>
-  <script charset="utf-8" src="http://admin.oneplusboat.com/layui/layui.all.js"></script>
+  <script charset="utf-8" src="<?=$config['site_templateurl'];?>/videojs/video.js"></script>
+  <script charset="utf-8" src="<?=$config['site_templateurl'];?>/layui/layui.all.js"></script>
   <script>window.HELP_IMPROVE_VIDEOJS = false; jQuery = layui.jquery</script>
-  <!--<script charset="utf-8" src="http://admin.oneplusboat.com/lazyload/jquery.lazyload.min.js"></script>-->
-  <script charset="utf-8" src="http://admin.oneplusboat.com/js/home.js"></script>
+  <!--<script charset="utf-8" src="<?=$config['site_templateurl'];?>/lazyload/jquery.lazyload.min.js"></script>-->
+  <script charset="utf-8" src="<?=$config['site_templateurl'];?>/js/home.js"></script>
   </body>
 </html>
