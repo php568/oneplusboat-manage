@@ -1,11 +1,11 @@
 <header class="header" id="header" role="banner">
   <div class="header-inner">
     <a href="/" title="Home" rel="home" class="header__logo" id="logo"><img
-          src="http://admin.oneplusboat.com/sites/default/files/ibi_logo_0.png" alt="Home"
+          src="<?=$config['site_templateurl'];?>/sites/default/files/ibi_logo_0.png" alt="Home"
           class="header__logo-image"/></a>
     <div class="header__region region region-header">
       <div id="block-tb-megamenu-main-menu" class="block block-tb-megamenu first last odd">
-        <div class="language"><a href="http://admin.oneplusboat.com/zh-cn/index.html">CH</a>&nbsp;|&nbsp;<a href="#">EN</a></div>
+        <div class="language"><a href="<?=base_url($langurl);?>" target="_blank">CH</a>&nbsp;|&nbsp;<a href="#">EN</a></div>
         <div data-duration="400" data-delay="200" id="tb-megamenu-main-menu"
              class="tb-megamenu tb-megamenu-main-menu style-blue animate elastic">
           <button data-target=".nav-collapse" data-toggle="collapse" class="btn btn-navbar tb-megamenu-button"
