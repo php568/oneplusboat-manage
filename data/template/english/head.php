@@ -28,4 +28,7 @@
         href="<?=$config['site_templateurl'];?>/sites/default/files/advagg_css/css__Mj-bIy5ZdhbjdVA7pHj7Qe9m1oxe9CofTDqdsAN1VkQ__3prFeLb_afdguwIlPlT7j2yNOxXL1V-zHkJXtlD9PY0__ajtl5luqwPIno5HZrQI719QK_aLTjJ2u5I7jOUzzXOI.css" media="all"/>
   <link type="text/css" rel="stylesheet" href="<?=$config['site_templateurl'];?>/videojs/video-js.css" />
   <link type="text/css" rel="stylesheet" href="<?=$config['site_templateurl'];?>/layui/css/layui.css" media="all" />
+  <script type="text/javascript">
+      var temp_url = "<?=$config['site_templateurl'];?>";
+  </script>
 </head>
