@@ -7,7 +7,10 @@
 @font-face{
     font-family:'flexslider-icon';
     src:url('../../../../sites/all/libraries/flexslider/fonts/flexslider-icon.eot');
-    src:url('../../../../sites/all/libraries/flexslider/fonts/flexslider-icon.eot?#iefix') format('embedded-opentype'),url('../../../../sites/all/libraries/flexslider/fonts/flexslider-icon.woff) format('woff'),url('../../../../sites/all/libraries/flexslider/fonts/flexslider-icon.ttf) format('truetype'),url('../../../../sites/all/libraries/flexslider/fonts/flexslider-icon.svg#flexslider-icon) format('svg');
+    src:url('../../../../sites/all/libraries/flexslider/fonts/flexslider-icon.eot?#iefix') format('embedded-opentype'),
+    url('../../../../sites/all/libraries/flexslider/fonts/flexslider-icon.woff') format('woff'),
+    url('../../../../sites/all/libraries/flexslider/fonts/flexslider-icon.ttf') format('truetype'),
+    url('../../../../sites/all/libraries/flexslider/fonts/flexslider-icon.svg#flexslider-icon') format('svg');
     font-weight:400;
     font-style:normal
 }
