@@ -19,7 +19,8 @@ class Category extends CI_Controller {
 		if(empty($thiscategory['model'])){show_404();}
 		if($thiscategory['model']=='page'||$thiscategory['model']=='guestbook'){
 			$this->tpldetail($thiscategory);
-		}else if($thiscategory['model']=='customise'){
+		}
+		else if($thiscategory['model']=='customise'){
 			//2014-12-1
 			$config = $this->Cache_model->loadConfig();			
 			$this->load->setPath();
@@ -30,7 +31,20 @@ class Category extends CI_Controller {
 				'category'=>$thiscategory
 			);
 			$this->load->view($config['site_template'].'/'.$tpl,$res);
-		}else{
+		}
+		else if($thiscategory['model']=='optimist-racer'){
+		    $this->optimistRacer($thiscategory);
+        }
+		else if($thiscategory['model']=='optimist-trainer'){
+		    $this->optimistTrainer($thiscategory);
+        }
+		else if($thiscategory['model']=='pe-polyethylene-opti'){
+		    $this->pePolyethyleneOpti($thiscategory);
+        }
+        else if($thiscategory['model']=='parts'){
+            $this->parts($thiscategory);
+        }
+		else{
 			/*
 			if($dir=='gear2')
 			{
@@ -384,5 +398,76 @@ class Category extends CI_Controller {
 	    $t=substr($t,0,-1);
 	    return $t;
 	}
-		
+
+	private function optimistRacer($thiscategory){
+        if(empty($thiscategory)){show_404();}
+        if($this->uri->segment(3)){show_404();}
+        $config = $this->Cache_model->loadConfig();
+        $config['seo_title'] = $thiscategory['title']==''?$thiscategory['name']:$thiscategory['title'];
+        $config['seo_keywords'] = $thiscategory['keywords']==''?$thiscategory['name']:$thiscategory['keywords'];
+        $config['seo_description'] = $thiscategory['description']==''?'':$thiscategory['description'];
+        $this->load->setPath();
+        $res = array(
+            'config'=>$config,
+            'langurl'=>$this->Cache_model->langurl,
+            'category'=>$thiscategory
+        );
+        $tpl = $thiscategory['model'];
+
+        $this->load->view($config['site_template'].'/'.$tpl,$res);
+    }
+
+    private function optimistTrainer($thiscategory){
+        if(empty($thiscategory)){show_404();}
+        if($this->uri->segment(3)){show_404();}
+        $config = $this->Cache_model->loadConfig();
+        $config['seo_title'] = $thiscategory['title']==''?$thiscategory['name']:$thiscategory['title'];
+        $config['seo_keywords'] = $thiscategory['keywords']==''?$thiscategory['name']:$thiscategory['keywords'];
+        $config['seo_description'] = $thiscategory['description']==''?'':$thiscategory['description'];
+        $this->load->setPath();
+        $res = array(
+            'config'=>$config,
+            'langurl'=>$this->Cache_model->langurl,
+            'category'=>$thiscategory
+        );
+        $tpl = $thiscategory['model'];
+
+        $this->load->view($config['site_template'].'/'.$tpl,$res);
+    }
+
+    private function pePolyethyleneOpti($thiscategory){
+        if(empty($thiscategory)){show_404();}
+        if($this->uri->segment(3)){show_404();}
+        $config = $this->Cache_model->loadConfig();
+        $config['seo_title'] = $thiscategory['title']==''?$thiscategory['name']:$thiscategory['title'];
+        $config['seo_keywords'] = $thiscategory['keywords']==''?$thiscategory['name']:$thiscategory['keywords'];
+        $config['seo_description'] = $thiscategory['description']==''?'':$thiscategory['description'];
+        $this->load->setPath();
+        $res = array(
+            'config'=>$config,
+            'langurl'=>$this->Cache_model->langurl,
+            'category'=>$thiscategory
+        );
+        $tpl = $thiscategory['model'];
+
+        $this->load->view($config['site_template'].'/'.$tpl,$res);
+	}
+
+    private function parts($thiscategory){
+        if(empty($thiscategory)){show_404();}
+        if($this->uri->segment(3)){show_404();}
+        $config = $this->Cache_model->loadConfig();
+        $config['seo_title'] = $thiscategory['title']==''?$thiscategory['name']:$thiscategory['title'];
+        $config['seo_keywords'] = $thiscategory['keywords']==''?$thiscategory['name']:$thiscategory['keywords'];
+        $config['seo_description'] = $thiscategory['description']==''?'':$thiscategory['description'];
+        $this->load->setPath();
+        $res = array(
+            'config'=>$config,
+            'langurl'=>$this->Cache_model->langurl,
+            'category'=>$thiscategory
+        );
+        $tpl = $thiscategory['model'];
+
+        $this->load->view($config['site_template'].'/'.$tpl,$res);
+    }
 }

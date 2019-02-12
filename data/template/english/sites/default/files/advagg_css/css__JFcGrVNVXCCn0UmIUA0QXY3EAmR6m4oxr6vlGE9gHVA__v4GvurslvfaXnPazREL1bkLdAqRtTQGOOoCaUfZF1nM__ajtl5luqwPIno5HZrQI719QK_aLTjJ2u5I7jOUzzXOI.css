@@ -791,13 +791,13 @@ table{
     }
     .front #content,.front .sidebars .sidebar{
         position:relative;
-        top:0 !important
+        top:0 !important;
     }
     .front img{
         width:100%
     }
     .html.front .sidebars .block-bean .entity{
-        max-height:auto !important
+        max-height:auto !important;
     }
     .view-taxonomy-term .views-row,.view-taxonomy-images .views-row,.view-search-results .views-row,.view-you-might-also-be-interested-in .views-row{
         width:47%;
