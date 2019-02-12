@@ -22,7 +22,7 @@ class Category extends CI_Controller {
 		}
 		else if($thiscategory['model']=='customise'){
 			//2014-12-1
-			$config = $this->Cache_model->loadConfig();			
+			$config = $this->Cache_model->loadConfig();
 			$this->load->setPath();
 			$tpl = $thiscategory['model'];
 			$res = array(
@@ -32,17 +32,9 @@ class Category extends CI_Controller {
 			);
 			$this->load->view($config['site_template'].'/'.$tpl,$res);
 		}
-		else if($thiscategory['model']=='optimist-racer'){
-		    $this->optimistRacer($thiscategory);
-        }
-		else if($thiscategory['model']=='optimist-trainer'){
-		    $this->optimistTrainer($thiscategory);
-        }
-		else if($thiscategory['model']=='pe-polyethylene-opti'){
-		    $this->pePolyethyleneOpti($thiscategory);
-        }
-        else if($thiscategory['model']=='parts'){
-            $this->parts($thiscategory);
+		else if($thiscategory['model']=='product'
+            && in_array($thiscategory['dir'], array('optimist-racer','optimist-trainer','pe-polyethylene-opti','parts'))){
+		    $this->commonPage($thiscategory);
         }
 		else{
 			/*
@@ -399,7 +391,7 @@ class Category extends CI_Controller {
 	    return $t;
 	}
 
-	private function optimistRacer($thiscategory){
+    private function commonPage($thiscategory){
         if(empty($thiscategory)){show_404();}
         if($this->uri->segment(3)){show_404();}
         $config = $this->Cache_model->loadConfig();
@@ -412,61 +404,7 @@ class Category extends CI_Controller {
             'langurl'=>$this->Cache_model->langurl,
             'category'=>$thiscategory
         );
-        $tpl = $thiscategory['model'];
-
-        $this->load->view($config['site_template'].'/'.$tpl,$res);
-    }
-
-    private function optimistTrainer($thiscategory){
-        if(empty($thiscategory)){show_404();}
-        if($this->uri->segment(3)){show_404();}
-        $config = $this->Cache_model->loadConfig();
-        $config['seo_title'] = $thiscategory['title']==''?$thiscategory['name']:$thiscategory['title'];
-        $config['seo_keywords'] = $thiscategory['keywords']==''?$thiscategory['name']:$thiscategory['keywords'];
-        $config['seo_description'] = $thiscategory['description']==''?'':$thiscategory['description'];
-        $this->load->setPath();
-        $res = array(
-            'config'=>$config,
-            'langurl'=>$this->Cache_model->langurl,
-            'category'=>$thiscategory
-        );
-        $tpl = $thiscategory['model'];
-
-        $this->load->view($config['site_template'].'/'.$tpl,$res);
-    }
-
-    private function pePolyethyleneOpti($thiscategory){
-        if(empty($thiscategory)){show_404();}
-        if($this->uri->segment(3)){show_404();}
-        $config = $this->Cache_model->loadConfig();
-        $config['seo_title'] = $thiscategory['title']==''?$thiscategory['name']:$thiscategory['title'];
-        $config['seo_keywords'] = $thiscategory['keywords']==''?$thiscategory['name']:$thiscategory['keywords'];
-        $config['seo_description'] = $thiscategory['description']==''?'':$thiscategory['description'];
-        $this->load->setPath();
-        $res = array(
-            'config'=>$config,
-            'langurl'=>$this->Cache_model->langurl,
-            'category'=>$thiscategory
-        );
-        $tpl = $thiscategory['model'];
-
-        $this->load->view($config['site_template'].'/'.$tpl,$res);
-	}
-
-    private function parts($thiscategory){
-        if(empty($thiscategory)){show_404();}
-        if($this->uri->segment(3)){show_404();}
-        $config = $this->Cache_model->loadConfig();
-        $config['seo_title'] = $thiscategory['title']==''?$thiscategory['name']:$thiscategory['title'];
-        $config['seo_keywords'] = $thiscategory['keywords']==''?$thiscategory['name']:$thiscategory['keywords'];
-        $config['seo_description'] = $thiscategory['description']==''?'':$thiscategory['description'];
-        $this->load->setPath();
-        $res = array(
-            'config'=>$config,
-            'langurl'=>$this->Cache_model->langurl,
-            'category'=>$thiscategory
-        );
-        $tpl = $thiscategory['model'];
+        $tpl = $thiscategory['dir'];
 
         $this->load->view($config['site_template'].'/'.$tpl,$res);
     }
