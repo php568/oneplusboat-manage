@@ -12,7 +12,9 @@
 <!--<![endif]-->
 
 <?php $this->load->view($config['site_template'].'/head');?>
-  <link type="text/css" rel="stylesheet" href="<?=$config['site_templateurl'];?>/css/home.css" media="all"/>
+  <link type="text/css" rel="stylesheet" href="<?=$config['site_templateurl'];?>/css/parts.css" media="all"/>
+  <style>.view-id-taxonomy_images .views-field-name{height: 40px;}</style>
+
   <body class="html not-front not-logged-in one-sidebar sidebar-second page-taxonomy page-taxonomy-parent page-taxonomy-parent- page-taxonomy-parent-11 section-clothing page-views" >
   <p id="skip-link">
     <a href="#main-menu" class="element-invisible element-focusable">Jump to navigation</a>
@@ -449,25 +451,9 @@
 
   <?php $this->load->view($config['site_template'].'/foot');?>
 
-
-  <script id="video-image" type="text/html">
-    <ul class="layui-row layui-col-space10">
-      {{#  layui.each(d.list, function(index, item){ }}
-      <li class="layui-col-md4 video_li{{index}}">
-        <a class="video-a" id="video{{index}}" href="javascript:;" title="" >
-          <img class="video-img" src="{{ item.image }}" data-type="{{ item.type }}" data-src="{{ item.url }}"  width="120px" height="80px" border="{{index}}">
-        </a>
-      </li>
-      {{#  }); }}
-      {{#  if(d.list.length === 0){ }}
-      No Data
-      {{#  } }}
-    </ul>
-  </script>
-  <script charset="utf-8" src="<?=$config['site_templateurl'];?>/videojs/video.js"></script>
   <script charset="utf-8" src="<?=$config['site_templateurl'];?>/layui/layui.all.js"></script>
   <script>window.HELP_IMPROVE_VIDEOJS = false; jQuery = layui.jquery</script>
   <!--<script charset="utf-8" src="<?=$config['site_templateurl'];?>/lazyload/jquery.lazyload.min.js"></script>-->
-  <script charset="utf-8" src="<?=$config['site_templateurl'];?>/js/home.js"></script>
+  <script charset="utf-8" src="<?=$config['site_templateurl'];?>/js/parts.js"></script>
   </body>
 </html>
