@@ -32,7 +32,10 @@ class Category extends CI_Controller {
 			);
 			$this->load->view($config['site_template'].'/'.$tpl,$res);
 		}
-		else if($thiscategory['model']=='product'
+		else if(in_array($thiscategory['model'], array(
+                'product',
+                'news',
+            ))
             && in_array($thiscategory['dir'], array(
                 'optimist-racer',
                 'optimist-trainer',
