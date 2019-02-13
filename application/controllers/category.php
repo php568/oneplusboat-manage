@@ -17,7 +17,23 @@ class Category extends CI_Controller {
 		$dir = $this->uri->segment(2);
 		$thiscategory = $this->Cache_model->loadCategoryByDir($dir);
 		if(empty($thiscategory['model'])){show_404();}
-		if($thiscategory['model']=='page'||$thiscategory['model']=='guestbook'){
+
+
+        if(in_array($thiscategory['model'], array(
+                'product',
+                'page',
+            ))
+            && in_array($thiscategory['dir'], array(
+                'optimist-racer',
+                'optimist-trainer',
+                'pe-polyethylene-opti',
+                'parts',
+                'dealers',
+                'about-us',
+            ))){
+            $this->commonPage($thiscategory);
+        }
+		else if($thiscategory['model']=='page'||$thiscategory['model']=='guestbook'){
 			$this->tpldetail($thiscategory);
 		}
 		else if($thiscategory['model']=='customise'){
@@ -32,17 +48,6 @@ class Category extends CI_Controller {
 			);
 			$this->load->view($config['site_template'].'/'.$tpl,$res);
 		}
-		else if(in_array($thiscategory['model'], array(
-                'product',
-            ))
-            && in_array($thiscategory['dir'], array(
-                'optimist-racer',
-                'optimist-trainer',
-                'pe-polyethylene-opti',
-                'parts',
-            ))){
-		    $this->commonPage($thiscategory);
-        }
 		else{
 			$this->tpllist($thiscategory);//gear  model=product;
 		}
