@@ -259,7 +259,7 @@
   <!--<script charset="utf-8" src="<?=$config['site_templateurl'];?>/videojs/video.js"></script>-->
   <script src='https://vjs.zencdn.net/7.4.1/video.js'></script>
   <!--<script charset="utf-8" src="<?=$config['site_templateurl'];?>/layui/layui.all.js"></script>-->
-  <script charset="utf-8" src="//layui.hcwl520.com.cn/layui/layui.js?v=201811010202"></script>
+  <script charset="utf-8" src="//layui.hcwl520.com.cn/layui/layui.all.js?v=201811010202"></script>
   <script>window.HELP_IMPROVE_VIDEOJS = false; jQuery = layui.jquery</script>
   <!--<script charset="utf-8" src="<?=$config['site_templateurl'];?>/lazyload/jquery.lazyload.min.js"></script>-->
   <script charset="utf-8" src="<?=$config['site_templateurl'];?>/js/home.js"></script>
