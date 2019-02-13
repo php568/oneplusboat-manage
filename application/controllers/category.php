@@ -33,7 +33,14 @@ class Category extends CI_Controller {
 			$this->load->view($config['site_template'].'/'.$tpl,$res);
 		}
 		else if($thiscategory['model']=='product'
-            && in_array($thiscategory['dir'], array('optimist-racer','optimist-trainer','pe-polyethylene-opti','parts'))){
+            && in_array($thiscategory['dir'], array(
+                'optimist-racer',
+                'optimist-trainer',
+                'pe-polyethylene-opti',
+                'parts',
+                'news-list',
+                'news',
+            ))){
 		    $this->commonPage($thiscategory);
         }
 		else{
