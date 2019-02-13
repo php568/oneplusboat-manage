@@ -47,22 +47,6 @@ class Category extends CI_Controller {
 		    $this->commonPage($thiscategory);
         }
 		else{
-			/*
-			if($dir=='gear2')
-			{
-				$thiscategory = $this->Cache_model->loadCategoryByDir('gear');
-				
-				$this->tpllist2($thiscategory);
-			}else if($dir=='gear')
-			{
-				$this->tpllist($thiscategory);
-			}else
-			{
-
-				//$this->get_product();
-			}
-			*/
-			
 			$this->tpllist($thiscategory);//gear  model=product;
 		}
 	}
