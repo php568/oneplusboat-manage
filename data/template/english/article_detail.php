@@ -40,7 +40,6 @@
                         property="foaf:name" datatype="">Administrator</span> on
                   <time pubdate datetime="<?php echo $detail['puttime'];?>"><?php echo $detail['puttime'];?></time></span>
               </p>
-
             </header>
             <div class="field field-name-body field-type-text-with-summary field-label-hidden">
               <div class="field-items">
