@@ -12,17 +12,17 @@
 <!--<![endif]-->
 
 <?php $this->load->view($config['site_template'].'/head');?>
-  <link type="text/css" rel="stylesheet" href="<?=$config['site_templateurl'];?>/css/parts.css" media="all"/>
-  <style>.view-id-taxonomy_images .views-field-name{height: 40px;}</style>
+<link type="text/css" rel="stylesheet" href="<?=$config['site_templateurl'];?>/css/parts.css" media="all"/>
+<style>.view-id-taxonomy_images .views-field-name{height: 40px;}</style>
 
-  <body class="html not-front not-logged-in one-sidebar sidebar-second page-taxonomy page-taxonomy-parent page-taxonomy-parent- page-taxonomy-parent-11 section-clothing page-views" >
-  <p id="skip-link">
-    <a href="#main-menu" class="element-invisible element-focusable">Jump to navigation</a>
-  </p>
+<body class="html not-front not-logged-in one-sidebar sidebar-second page-taxonomy page-taxonomy-parent page-taxonomy-parent- page-taxonomy-parent-11 section-clothing page-views" >
+<p id="skip-link">
+  <a href="#main-menu" class="element-invisible element-focusable">Jump to navigation</a>
+</p>
 
 <?php $this->load->view($config['site_template'].'/menu');?>
 
-  <div id="page">
+<div id="page">
 
     <div id="main">
 
@@ -449,11 +449,10 @@
     </div>
   </div>
 
-  <?php $this->load->view($config['site_template'].'/foot');?>
+<?php $this->load->view($config['site_template'].'/foot');?>
 
-  <script charset="utf-8" src="<?=$config['site_templateurl'];?>/layui/layui.all.js"></script>
-  <script>window.HELP_IMPROVE_VIDEOJS = false; jQuery = layui.jquery</script>
-  <!--<script charset="utf-8" src="<?=$config['site_templateurl'];?>/lazyload/jquery.lazyload.min.js"></script>-->
-  <script charset="utf-8" src="<?=$config['site_templateurl'];?>/js/parts.js"></script>
-  </body>
+<script charset="utf-8" src="<?=$config['site_templateurl'];?>/layui/layui.all.js"></script>
+<script>window.HELP_IMPROVE_VIDEOJS = false; jQuery = layui.jquery</script>
+<script charset="utf-8" src="<?=$config['site_templateurl'];?>/js/parts.js"></script>
+</body>
 </html>
