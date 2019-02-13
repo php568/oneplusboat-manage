@@ -450,6 +450,6 @@
 
   <script charset="utf-8" src="<?=$config['site_templateurl'];?>/layui/layui.all.js"></script>
   <script>window.HELP_IMPROVE_VIDEOJS = false; jQuery = layui.jquery</script>
-  <script charset="utf-8" src="http://admin.oneplusboat.com/js/pe-polyethylene-opti.js"></script>
+  <script charset="utf-8" src="<?=$config['site_templateurl'];?>/js/pe-polyethylene-opti.js"></script>
   </body>
 </html>
