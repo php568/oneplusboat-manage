@@ -34,7 +34,7 @@ class Category extends CI_Controller {
 		}
 		else if(in_array($thiscategory['model'], array(
                 'product',
-                'news',
+                'article',
             ))
             && in_array($thiscategory['dir'], array(
                 'optimist-racer',
