@@ -635,7 +635,7 @@ class Cache_model extends CI_Model{
 				$item['isbold'] = $item['isbold']==0?'':'font-weight:bold;';
 				$item['puttime'] = date('Y-m-d H:i:s',$item['puttime']);
 				$item['tagsstr'] = $this->loadTagsByIds($item['tags']);
-				$item['content'] = replacekeyword($tmpKeywords['keywords'],$tmpKeywords['urls'],$item['content']);
+				$item['content'] = $item['content']; //replacekeyword($tmpKeywords['keywords'],$tmpKeywords['urls'],$item['content']);
 				if(isset($category[$item['category']]['model']) && $category[$item['category']]['model']=='down'){
 					$item['oldurl'] = get_image_url($item['attrurl']);
 					$item['downurl'] = site_url('download/'.$item['id'].$this->langurl);
