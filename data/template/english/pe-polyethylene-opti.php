@@ -448,25 +448,8 @@
 
 <?php $this->load->view($config['site_template'].'/foot');?>
 
-
-  <script id="video-image" type="text/html">
-    <ul class="layui-row layui-col-space10">
-      {{#  layui.each(d.list, function(index, item){ }}
-      <li class="layui-col-md4 video_li{{index}}">
-        <a class="video-a" id="video{{index}}" href="javascript:;" title="" >
-          <img class="video-img" src="{{ item.image }}" data-type="{{ item.type }}" data-src="{{ item.url }}"  width="120px" height="80px" border="{{index}}">
-        </a>
-      </li>
-      {{#  }); }}
-      {{#  if(d.list.length === 0){ }}
-      No Data
-      {{#  } }}
-    </ul>
-  </script>
-  <script charset="utf-8" src="<?=$config['site_templateurl'];?>/videojs/video.js"></script>
   <script charset="utf-8" src="<?=$config['site_templateurl'];?>/layui/layui.all.js"></script>
   <script>window.HELP_IMPROVE_VIDEOJS = false; jQuery = layui.jquery</script>
-  <!--<script charset="utf-8" src="<?=$config['site_templateurl'];?>/lazyload/jquery.lazyload.min.js"></script>-->
-  <script charset="utf-8" src="<?=$config['site_templateurl'];?>/js/home.js"></script>
+  <script charset="utf-8" src="http://admin.oneplusboat.com/js/pe-polyethylene-opti.js"></script>
   </body>
 </html>
