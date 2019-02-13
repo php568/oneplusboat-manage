@@ -20,14 +20,11 @@
   <meta name="viewport" content="width=device-width">
   <meta http-equiv="cleartype" content="on">
   <link rel="shortcut icon" href="<?=x6cms_path('images/favicon.ico');?>" type="image/vnd.microsoft.icon" />
-  <link type="text/css" rel="stylesheet"
-        href="<?=$config['site_templateurl'];?>/sites/default/files/advagg_css/css__41zUXBKOEU372pSLHsdFExY9LtvKhniLfUsKL_Avbjk__7euyz90bSKg0_ANgftc3Xf4J_mjPAPtaVr8knRIl6Tc__ajtl5luqwPIno5HZrQI719QK_aLTjJ2u5I7jOUzzXOI.css" media="all"/>
-  <link type="text/css" rel="stylesheet"
-        href="<?=$config['site_templateurl'];?>/sites/default/files/advagg_css/css__nK0VPh-CNQQFunEK_lCl1cut1GZ_ZUQXOOY0wPiQ4aU__C8jfzkpXEtdqNwCJhEZWnfrWeima0ebXQoGT4J_tupk__ajtl5luqwPIno5HZrQI719QK_aLTjJ2u5I7jOUzzXOI.css" media="all"/>
-  <link type="text/css" rel="stylesheet"
-        href="<?=$config['site_templateurl'];?>/sites/default/files/advagg_css/css__Mj-bIy5ZdhbjdVA7pHj7Qe9m1oxe9CofTDqdsAN1VkQ__3prFeLb_afdguwIlPlT7j2yNOxXL1V-zHkJXtlD9PY0__ajtl5luqwPIno5HZrQI719QK_aLTjJ2u5I7jOUzzXOI.css" media="all"/>
-  <link type="text/css" rel="stylesheet" href="<?=$config['site_templateurl'];?>/videojs/video-js.css" />
-  <link type="text/css" rel="stylesheet" href="<?=$config['site_templateurl'];?>/layui/css/layui.css" media="all" />
+  <link type="text/css" rel="stylesheet" href="<?=$config['site_templateurl'];?>/sites/default/files/advagg_css/css__41zUXBKOEU372pSLHsdFExY9LtvKhniLfUsKL_Avbjk__7euyz90bSKg0_ANgftc3Xf4J_mjPAPtaVr8knRIl6Tc__ajtl5luqwPIno5HZrQI719QK_aLTjJ2u5I7jOUzzXOI.css" media="all"/>
+  <link type="text/css" rel="stylesheet" href="<?=$config['site_templateurl'];?>/sites/default/files/advagg_css/css__nK0VPh-CNQQFunEK_lCl1cut1GZ_ZUQXOOY0wPiQ4aU__C8jfzkpXEtdqNwCJhEZWnfrWeima0ebXQoGT4J_tupk__ajtl5luqwPIno5HZrQI719QK_aLTjJ2u5I7jOUzzXOI.css" media="all"/>
+  <link type="text/css" rel="stylesheet" href="<?=$config['site_templateurl'];?>/sites/default/files/advagg_css/css__Mj-bIy5ZdhbjdVA7pHj7Qe9m1oxe9CofTDqdsAN1VkQ__3prFeLb_afdguwIlPlT7j2yNOxXL1V-zHkJXtlD9PY0__ajtl5luqwPIno5HZrQI719QK_aLTjJ2u5I7jOUzzXOI.css" media="all"/>
+  <!--<link type="text/css" rel="stylesheet" href="<?=$config['site_templateurl'];?>/layui/css/layui.css" media="all" />-->
+  <link type="text/css" rel="stylesheet" href="//layui.hcwl520.com.cn/layui/css/layui.css?v=201811010202" media="all" />
   <script type="text/javascript">
       var temp_url = "<?=$config['site_templateurl'];?>";
   </script>

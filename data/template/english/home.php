@@ -12,7 +12,13 @@
 <!--<![endif]-->
 
 <?php $this->load->view($config['site_template'].'/head');?>
+
+  <!--<link type="text/css" rel="stylesheet" href="<?=$config['site_templateurl'];?>/videojs/video-js.css" />-->
+  <link href="https://vjs.zencdn.net/7.4.1/video-js.css" rel="stylesheet">
   <link type="text/css" rel="stylesheet" href="<?=$config['site_templateurl'];?>/css/home.css" media="all"/>
+
+  <!-- If you'd like to support IE8 (for Video.js versions prior to v7) -->
+  <script src="https://vjs.zencdn.net/ie8/ie8-version/videojs-ie8.min.js"></script>
 
   <body class="html front not-logged-in one-sidebar sidebar-second page-homepage page-views">
   <p id="skip-link">
@@ -20,7 +26,6 @@
   </p>
 
 <?php $this->load->view($config['site_template'].'/menu');?>
-
 
   <div id="page">
 
@@ -237,7 +242,6 @@
 
 <?php $this->load->view($config['site_template'].'/foot');?>
 
-
   <script id="video-image" type="text/html">
     <ul class="layui-row layui-col-space10">
       {{#  layui.each(d.list, function(index, item){ }}
@@ -252,8 +256,10 @@
       {{#  } }}
     </ul>
   </script>
-  <script charset="utf-8" src="<?=$config['site_templateurl'];?>/videojs/video.js"></script>
-  <script charset="utf-8" src="<?=$config['site_templateurl'];?>/layui/layui.all.js"></script>
+  <!--<script charset="utf-8" src="<?=$config['site_templateurl'];?>/videojs/video.js"></script>-->
+  <script src='https://vjs.zencdn.net/7.4.1/video.js'></script>
+  <!--<script charset="utf-8" src="<?=$config['site_templateurl'];?>/layui/layui.all.js"></script>-->
+  <script charset="utf-8" src="//layui.hcwl520.com.cn/layui/layui.js?v=201811010202"></script>
   <script>window.HELP_IMPROVE_VIDEOJS = false; jQuery = layui.jquery</script>
   <!--<script charset="utf-8" src="<?=$config['site_templateurl'];?>/lazyload/jquery.lazyload.min.js"></script>-->
   <script charset="utf-8" src="<?=$config['site_templateurl'];?>/js/home.js"></script>
