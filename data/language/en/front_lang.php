@@ -1,11 +1,11 @@
 <?php
 /*system*/
-$lang['system_author'] = 'Oneplus Boat';
-$lang['system_name'] = 'Oneplus Boat';
+$lang['system_author'] = 'OnePlus Boat';
+$lang['system_name'] = 'OnePlus Boat';
 $lang['system_adminname'] = 'Management Center';
 $lang['system_link'] = $config['base_url'];
 $lang['system_version'] = '3.0';
-$lang['system_copy'] = '© 2019 Oneplus Boat';
+$lang['system_copy'] = '© 2019 OnePlus Boat';
 
 /*page*/
 $lang['first_page'] = 'Home';
@@ -113,7 +113,7 @@ $lang['attribute'] = 'Attribute';
 
 //mail
 $lang['c_emailtitle'] = 'GET IN TOUCH';
-$lang['c_emailadminsend'] = 'Oneplus Boat';
+$lang['c_emailadminsend'] = 'OnePlus Boat';
 $lang['c_emailadmincontent'] = "<table class='outer-table' border='0' cellspacing='0' cellpadding='0' width='552' style='border:1px solid #dedede;border-bottom:2px solid #dedede;margin:0 auto;background-color:#ffffff;'>".
 								"<tbody>".
 								"    <tr>".

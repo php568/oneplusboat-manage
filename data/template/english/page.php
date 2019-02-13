@@ -43,7 +43,7 @@
             <h1 class="page__title title" id="page-title">About OnePlus Boat</h1>
             <article class="node-2690 node node-page view-mode-full clearfix" about="/about-racing-dinghies" typeof="foaf:Document">
               <header>
-                <span property="dc:title" content="About Oneplus Boat" class="rdf-meta element-hidden"></span>
+                <span property="dc:title" content="About OnePlus Boat" class="rdf-meta element-hidden"></span>
               </header>
               <div class="field field-name-body field-type-text-with-summary field-label-hidden">
                 <div class="field-items">
@@ -81,7 +81,7 @@
                       </tr>
                       <tr>
                         <td valign="top"><img src="/sites/default/files/sarah%20fitzgerald.jpg" alt="sarah fitzgerald.jpg" width="200" height="249" /></td>
-                        <td valign="top"> <h2>Sarah Fitzgerald</h2> <p style="font-size: 10px; font-weight: normal;"><span style="font-size: small;">Sarah joned Oneplus Boat in 2012. Sarah is responsible for smooth running of the office and on-line orders. She is alos resposnible for keeping the men and dogs in line. Sarah sails an RS200 at Itchenor with her husband Andy (owner of Oceanair Ltd). Sarah's knowledge of Mirrors and 420s is invaluable.</span></p> </td>
+                        <td valign="top"> <h2>Sarah Fitzgerald</h2> <p style="font-size: 10px; font-weight: normal;"><span style="font-size: small;">Sarah joned OnePlus Boat in 2012. Sarah is responsible for smooth running of the office and on-line orders. She is alos resposnible for keeping the men and dogs in line. Sarah sails an RS200 at Itchenor with her husband Andy (owner of Oceanair Ltd). Sarah's knowledge of Mirrors and 420s is invaluable.</span></p> </td>
                       </tr>
                       <tr>
                         <td valign="top"> <p class="p1"><img src="/sites/default/files/Alison_elliott.png" alt="alison elliott" title="alison elliott" width="200" height="263" style="font-size: 10px; max-width: 200px;" /></p> </td>

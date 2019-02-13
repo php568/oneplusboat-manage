@@ -1,11 +1,11 @@
 <?php
 /*system*/
-$lang['system_author'] = 'Oneplus Boat';
-$lang['system_name'] = 'Oneplus Boat';
+$lang['system_author'] = 'OnePlus Boat';
+$lang['system_name'] = 'OnePlus Boat';
 $lang['system_adminname'] = '后台管理中心';
 $lang['system_link'] = $config['base_url'];
 $lang['system_version'] = '3.0';
-$lang['system_copy'] = '© 2019 Oneplus Boat';
+$lang['system_copy'] = '© 2019 OnePlus Boat';
 
 /*page*/
 $lang['first_page'] = '首页';
