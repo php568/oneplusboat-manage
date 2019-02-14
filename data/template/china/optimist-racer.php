@@ -1,11 +1,10 @@
 
 <?php $this->load->view($config['site_template'].'/head');?>
-<link type="text/css" rel="stylesheet" href="<?=$config['site_templateurl'];?>/css/optimist-trainer.css" media="all"/>
+<link type="text/css" rel="stylesheet" href="<?=$config['site_templateurl'];?>/css/optimist-racer.css" media="all"/>
 <style>
   .view-homepage .views-field-body h1{ line-height: 2em; font-size: 2em;font-weight: bold;}
   .view-homepage .views-field-body p { font-size: 1.2em; line-height: 23px; margin: 0; }
 </style>
-
 <body class="html front not-logged-in one-sidebar sidebar-second page-homepage page-views">
 <p id="skip-link">
   <a href="#main-menu" class="element-invisible element-focusable">Jump to navigation</a>
@@ -20,9 +19,9 @@
     <div id="content" class="column" role="main">
       <div class="content-wrapper">
         <div id="content-inner">
-          <!--<nav class="breadcrumb" role="navigation"><h2 class="element-invisible">You are here</h2><ol><li><a href="/">Home</a> › </li><li><a href="#" title="Boats">Boats</a> › </li><li>optimist-trainer</li></ol></nav>-->
+          <!--<nav class="breadcrumb" role="navigation"><h2 class="element-invisible">You are here</h2><ol><li><a href="/">Home</a> › </li><li><a href="#" title="Boats">Boats</a> › </li><li>Optimits-Racer</li></ol></nav>-->
           <a id="main-content"></a>
-          <h1 class="page__title title" id="page-title">optimist-trainer</h1>
+          <h1 class="page__title title" id="page-title">Optimist-Racer</h1>
           <div class="view view-homepage view-id-homepage view-display-id-page view-dom-id-6f2cac949f64f36bb049843a0e7be506">
 
             <div class="view-content">
@@ -31,35 +30,35 @@
                   <li>
                     <div class="views-field views-field-field-slide-image">
                       <div class="field-content">
-                        <img typeof="foaf:Image" src="<?=$config['site_templateurl'];?>/sites/default/files/optimist-trainer/690x428/1.jpg" width="690" height="428" alt=""/>
+                        <img typeof="foaf:Image" src="<?=$config['site_templateurl'];?>/sites/default/files/optimist-racer/690x428/1.jpg" width="690" height="428" alt=""/>
                       </div>
                     </div>
                   </li>
                   <!--<li>
                       <div class="views-field views-field-field-slide-image">
                           <div class="field-content">
-                              <img typeof="foaf:Image" src="<?=$config['site_templateurl'];?>/sites/default/files/optimist-trainer/690x428/2.jpg" width="690" height="428" alt=""/>
+                              <img typeof="foaf:Image" src="<?=$config['site_templateurl'];?>/sites/default/files/optimist-racer/690x428/2.jpg" width="690" height="428" alt=""/>
                           </div>
                       </div>
                   </li>-->
                   <li>
                     <div class="views-field views-field-field-slide-image">
                       <div class="field-content">
-                        <img typeof="foaf:Image" src="<?=$config['site_templateurl'];?>/sites/default/files/optimist-trainer/690x428/3.jpg" width="690" height="428" alt=""/>
+                        <img typeof="foaf:Image" src="<?=$config['site_templateurl'];?>/sites/default/files/optimist-racer/690x428/3.jpg" width="690" height="428" alt=""/>
                       </div>
                     </div>
                   </li>
                   <li>
                     <div class="views-field views-field-field-slide-image">
                       <div class="field-content">
-                        <img typeof="foaf:Image" src="<?=$config['site_templateurl'];?>/sites/default/files/optimist-trainer/690x428/4.jpg" width="690" height="428" alt=""/>
+                        <img typeof="foaf:Image" src="<?=$config['site_templateurl'];?>/sites/default/files/optimist-racer/690x428/4.jpg" width="690" height="428" alt=""/>
                       </div>
                     </div>
                   </li>
                   <li>
                     <div class="views-field views-field-field-slide-image">
                       <div class="field-content">
-                        <img typeof="foaf:Image" src="<?=$config['site_templateurl'];?>/sites/default/files/optimist-trainer/690x428/5.jpg" width="690" height="428" alt=""/>
+                        <img typeof="foaf:Image" src="<?=$config['site_templateurl'];?>/sites/default/files/optimist-racer/690x428/5.jpg" width="690" height="428" alt=""/>
                       </div>
                     </div>
                   </li>
@@ -68,23 +67,27 @@
 
               <div id="intro-1" class="views-field views-field-body">
                 <div class="field-content">
-                  <h1>OnePlus Optimist Trainer</h1>
+                  <h1>OnePlus Optimist Racer</h1>
                   <!--<h2>OVERVIEW</h2>-->
                   <p>
                                     <span style="font-size: medium;">
-                                      OnePlus Optimist Trainer is a glass fiber training optimist, developed by and for sailing schools and associations. Special attention has been paid to sound, sturdy construction, stability and sailing characteristics and properties. The hull shape is identical to that of competition boats.These boats have a large cockpit, allowing plenty of space for two kids.<br/><br/>
+                                        Originally designed in 1947, by Mr. Clark Mills . The Optimist is a small, single-handed sailing dinghy intended for use by children up to the age of 15.<br/>
+                                        The Optimist Dinghy has become the world standard as both the introductory junior trainer and a premier one design racing class. <br/>
+                                        It is the only sailboat designed specifically for children allowing them to learn the essentials of sailing without danger or fear. It is also the biggest and fastest growing racing class in the world with over 300,000 hulls built worldwide.<br/><br/>
 
-                                      Extra reinforcements have been added to the bow construction, mast foot, and rudder suspension framework to guarantee safety. A heavy duty pvc fender profile has been fitted to deck edges and extra heavy duty profiles to the bows. The boat has been developed for single handed sailors weighting up to a maximum of 60 kilograms, and is the world number one training boat for novices With the correct basic skills developed, it will facilitate rapid progress in sailing as a sport, even to regatta race circuit levels.
-                                    </span>
+                                        Why OnePlus Boats?<br/>
+                                        Our staffs have been working for the production of optimist; services for the repair, championships, more than 15 years.<br/>
+                                        Thanks for the globalization, we have accesses to learn advances in Western technology, and to use the world best materials to build the boats. Meanwhile, We Chinese have thousands years history of great craftsmanship. With all of these factors, we OnePlus Boat can make the best quality boats with reasonable price. <br/>
+                                        </span>
                   </p>
                 </div>
               </div>
             </div>
 
+
           </div>
           <div id="block-views-homepage-products-block" class="block block-views even">
             <div class="view view-homepage-products view-id-homepage_products view-display-id-block view-dom-id-9b7599185229c8a2c2150ea8abbca8ed">
-
 
               <div class="view-content">
                 <div class="views-responsive-grid views-responsive-grid-horizontal views-columns-3">
@@ -94,7 +97,7 @@
                       <div class="views-field views-field-uc-product-image">
                         <div class="field-content">
                           <a href="javascript:;">
-                            <img typeof="foaf:Image" src="<?=$config['site_templateurl'];?>/sites/default/files/optimist-trainer/225x225/1.jpg" layer-src="<?=$config['site_templateurl'];?>/sites/default/files/optimist-trainer/600x600/1.jpg" width="220" height="220" alt="Czygar optimist daggerboard"/>
+                            <img typeof="foaf:Image" src="<?=$config['site_templateurl'];?>/sites/default/files/optimist-racer/225x225/1.jpg" layer-src="<?=$config['site_templateurl'];?>/sites/default/files/optimist-racer/600x600/1.jpg" width="220" height="220" alt="Czygar optimist daggerboard"/>
                           </a>
                         </div>
                       </div>
@@ -103,7 +106,7 @@
                       <div class="views-field views-field-uc-product-image">
                         <div class="field-content">
                           <a href="javascript:;">
-                            <img typeof="foaf:Image" src="<?=$config['site_templateurl'];?>/sites/default/files/optimist-trainer/225x225/2.jpg" layer-src="<?=$config['site_templateurl'];?>/sites/default/files/optimist-trainer/600x600/2.jpg" width="220" height="220" alt="DSK Foils DyNaMiS Rudder"/>
+                            <img typeof="foaf:Image" src="<?=$config['site_templateurl'];?>/sites/default/files/optimist-racer/225x225/2.jpg" layer-src="<?=$config['site_templateurl'];?>/sites/default/files/optimist-racer/600x600/2.jpg" width="220" height="220" alt="DSK Foils DyNaMiS Rudder"/>
                           </a>
                         </div>
                       </div>
@@ -113,7 +116,7 @@
                       <div class="views-field views-field-uc-product-image">
                         <div class="field-content">
                           <a href="javascript:;">
-                            <img typeof="foaf:Image" src="<?=$config['site_templateurl'];?>/sites/default/files/optimist-trainer/225x225/3.jpg" layer-src="<?=$config['site_templateurl'];?>/sites/default/files/optimist-trainer/600x600/3.jpg" width="220" height="220" alt=""/>
+                            <img typeof="foaf:Image" src="<?=$config['site_templateurl'];?>/sites/default/files/optimist-racer/225x225/3.jpg" layer-src="<?=$config['site_templateurl'];?>/sites/default/files/optimist-racer/600x600/3.jpg" width="220" height="220" alt=""/>
                           </a>
                         </div>
                       </div>
@@ -125,7 +128,7 @@
                       <div class="views-field views-field-uc-product-image">
                         <div class="field-content">
                           <a href="javascript:;">
-                            <img typeof="foaf:Image" src="<?=$config['site_templateurl'];?>/sites/default/files/optimist-trainer/225x225/4.jpg" layer-src="<?=$config['site_templateurl'];?>/sites/default/files/optimist-trainer/600x600/4.jpg" width="220" height="220" alt="Czygar optimist daggerboard"/>
+                            <img typeof="foaf:Image" src="<?=$config['site_templateurl'];?>/sites/default/files/optimist-racer/225x225/4.jpg" layer-src="<?=$config['site_templateurl'];?>/sites/default/files/optimist-racer/600x600/4.jpg" width="220" height="220" alt="Czygar optimist daggerboard"/>
                           </a>
                         </div>
                       </div>
@@ -135,7 +138,7 @@
                       <div class="views-field views-field-uc-product-image">
                         <div class="field-content">
                           <a href="javascript:;">
-                            <img typeof="foaf:Image" src="<?=$config['site_templateurl'];?>/sites/default/files/optimist-trainer/225x225/5.jpg" layer-src="<?=$config['site_templateurl'];?>/sites/default/files/optimist-trainer/600x600/5.jpg" width="220" height="220" alt="DSK Foils DyNaMiS Rudder"/>
+                            <img typeof="foaf:Image" src="<?=$config['site_templateurl'];?>/sites/default/files/optimist-racer/225x225/5.jpg" layer-src="<?=$config['site_templateurl'];?>/sites/default/files/optimist-racer/600x600/5.jpg" width="220" height="220" alt="DSK Foils DyNaMiS Rudder"/>
                           </a>
                         </div>
                       </div>
@@ -145,7 +148,7 @@
                       <div class="views-field views-field-uc-product-image">
                         <div class="field-content">
                           <a href="javascript:;">
-                            <img typeof="foaf:Image" src="<?=$config['site_templateurl'];?>/sites/default/files/optimist-trainer/225x225/6.jpg" layer-src="<?=$config['site_templateurl'];?>/sites/default/files/optimist-trainer/600x600/6.jpg" width="220" height="220" alt=""/>
+                            <img typeof="foaf:Image" src="<?=$config['site_templateurl'];?>/sites/default/files/optimist-racer/225x225/6.jpg" layer-src="<?=$config['site_templateurl'];?>/sites/default/files/optimist-racer/600x600/6.jpg" width="220" height="220" alt=""/>
                           </a>
                         </div>
                       </div>
@@ -245,19 +248,19 @@
             <div class="table-row-group">
               <ul class="table-row">
                 <li class="table-cell table-cell1">SPEC</li>
-                <li class="table-cell">OnePlus Trainer</li>
+                <li class="table-cell">OnePlus Racer</li>
               </ul>
               <ul class="table-row">
                 <li class="table-cell table-cell1">Length</li>
-                <li class="table-cell">2.38m</li>
+                <li class="table-cell">2.3m</li>
               </ul>
               <ul class="table-row">
                 <li class="table-cell table-cell1">Beam</li>
-                <li class="table-cell">1.2m</li>
+                <li class="table-cell">1.14m</li>
               </ul>
               <ul class="table-row">
                 <li class="table-cell table-cell1">Hull Weight</li>
-                <li class="table-cell">38kg</li>
+                <li class="table-cell">35kg</li>
               </ul>
               <ul class="table-row">
                 <li class="table-cell table-cell1">Sail Area</li>
@@ -269,7 +272,7 @@
               </ul>
               <ul class="table-row">
                 <li class="table-cell table-cell1">Crew</li>
-                <li class="table-cell">1-2</li>
+                <li class="table-cell">1</li>
               </ul>
             </div>
             <div class="table-footer-group">
@@ -289,6 +292,6 @@
 
 <script charset="utf-8" src="<?=$config['site_templateurl'];?>/layui/layui.all.js"></script>
 <script>window.HELP_IMPROVE_VIDEOJS = false; jQuery = layui.jquery</script>
-<script charset="utf-8" src="<?=$config['site_templateurl'];?>/js/optimist-trainer.js"></script>
+<script charset="utf-8" src="<?=$config['site_templateurl'];?>/js/optimist-racer.js"></script>
 </body>
 </html>

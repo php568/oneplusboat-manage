@@ -1,3 +1,16 @@
+<!DOCTYPE html>
+<!--[if IEMobile 7]>
+<html class="iem7" lang="en" dir="ltr"><![endif]-->
+<!--[if lte IE 6]>
+<html class="lt-ie9 lt-ie8 lt-ie7" lang="en" dir="ltr"><![endif]-->
+<!--[if (IE 7)&(!IEMobile)]>
+<html class="lt-ie9 lt-ie8" lang="en" dir="ltr"><![endif]-->
+<!--[if IE 8]>
+<html class="lt-ie9" lang="en" dir="ltr"><![endif]-->
+<!--[if (gte IE 9)|(gt IEMobile 7)]><!-->
+<html lang="en">
+<!--<![endif]-->
+
 <head>
   <!--[if IE]><![endif]-->
   <meta charset="utf-8"/>

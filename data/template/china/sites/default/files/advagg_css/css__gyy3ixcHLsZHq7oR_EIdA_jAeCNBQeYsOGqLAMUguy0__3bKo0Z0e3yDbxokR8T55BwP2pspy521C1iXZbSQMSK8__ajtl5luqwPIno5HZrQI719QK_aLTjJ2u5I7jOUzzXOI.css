@@ -81,7 +81,7 @@ a:link {
 }
 
 #content .view a:link,#content .view a:visited {
-    color: #fff
+    /*color: #fff*/
 }
 
 .block .menu a:link,.block .menu a:visited {
