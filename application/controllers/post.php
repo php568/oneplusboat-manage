@@ -61,16 +61,14 @@ class Post extends CI_Controller {
 					$subject = ''.lang('c_emailtitle');
 					$str_content =  'First Name:' . $data['firstname'].'<br/>'.
 									'Surname:' . $data['surname'].'<br/>'.
-									'Gender:' . ($data['gender'] ==1 ? 'Male':'Female') .'<br/>'.
 									'E-mail:' . $data['email'].'<br/>'.
 									'Phone:' . $data['phone'].'<br/>'.
-									'Country:' . $data['country'].'<br/>'.
 									'Message:' . $data['content'];
 					$content = str_replace('TITLE_LIUS_LTF', $subject, str_replace('CONTENT_LIUS_LTF', $str_content, lang('c_emailadmincontent'))) ;
 					
 					$this->email->initialize($config);
 					$this->email->from($mailconfig['smtp_user'], lang('c_emailadminsend'));
-					$this->email->to($mailconfig['smtp_sendmail']);//���ʼ��ʺ�
+					$this->email->to($mailconfig['smtp_sendmail']);
 					$this->email->subject($subject);
 					$this->email->message($content);
 					$this->email->send();
