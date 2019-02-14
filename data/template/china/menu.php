@@ -5,7 +5,7 @@
                     class="header__logo-image"/></a>
         <div class="header__region region region-header">
             <div id="block-tb-megamenu-main-menu" class="block block-tb-megamenu first last odd">
-                <div class="language"><a href="#">CH</a>&nbsp;|&nbsp;<a href="/?lang=en">EN</a></div>
+                <div class="language"><a href="#">CH</a>&nbsp;|&nbsp;<a href="<?= current_url($langurl); ?>">EN</a></div>
                 <div data-duration="400" data-delay="200" id="tb-megamenu-main-menu"
                      class="tb-megamenu tb-megamenu-main-menu style-blue animate elastic">
                     <button data-target=".nav-collapse" data-toggle="collapse" class="btn btn-navbar tb-megamenu-button"
