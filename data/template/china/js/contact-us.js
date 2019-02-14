@@ -23,6 +23,7 @@
     $('.tb-megamenu .nav-collapse').toggleClass('open');
 
     $( "#edit-submit" ).click(function() {
+        $( "#edit-submit" ).attr('disabled',true);
         var field = $('#webform-client-form-2691').serialize();
         $.ajax({
             type: "POST",
@@ -30,6 +31,7 @@
             data: field,
             dataType: "json",
             success: function(data){
+                $( "#edit-submit" ).removeAttr('disabled');
                 console.log(data);
                 if(data.code =='00000'){
                     layer.msg(data.message, {
