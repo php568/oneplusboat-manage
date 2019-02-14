@@ -63,6 +63,7 @@
             data: field,
             dataType: "json",
             success: function(data){
+                console.log(data);
                 layer.msg('Success', {
                     offset: '15px'
                     ,icon: 1

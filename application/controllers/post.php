@@ -96,12 +96,20 @@ class Post extends CI_Controller {
 		$url = isset($_SERVER['HTTP_REFERER'])&&$_SERVER['HTTP_REFERER']!=''?$_SERVER['HTTP_REFERER']:base_url($this->Cache_model->langurl);
 		$actionurl[] = array('name'=>lang('reback'),'url'=>$url);
 		$this->load->setPath();
+		if(!$iserror){
+		    $code = '00000';
+        }else{
+		    $code = '99999';
+        }
 		$res = array(
-				'config'=>$config,
-				'message'=>$message,
-				'actionurl'=>$actionurl,
-				'langurl'=>$this->Cache_model->langurl
+		    'code' => $code,
+		    'config'=>$config,
+            'message'=>$message,
+            'actionurl'=>$actionurl,
+            'langurl'=>$this->Cache_model->langurl
 		);
+		echo json_encode($res);exit;
+
 		$this->load->view($config['site_template'].'/message',$res);
 	}
 }
