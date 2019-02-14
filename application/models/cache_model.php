@@ -165,7 +165,7 @@ class Cache_model extends CI_Model{
 			$cache .= '</li>';
 		}
 	}
-	
+
 	
 	function loadCategory($num=0){
 		$cachestr = 'category_'.$this->currentLang.'_'.$num;
@@ -203,9 +203,41 @@ class Cache_model extends CI_Model{
 		$cachestr = 'category_'.$this->currentLang.'_arr';
 		$cache = $this->CI->cache->get($cachestr);
 		if(!$cache){
-			$data = $this->CI->Data_model->getData(array('lang'=>$this->currentLang),'lft',0,0,'category');
-			$cache = $this->handleCategoryData($data);
-			$this->CI->cache->save($cachestr,$cache,2592000);
+            $data = array();
+            $datawhere_level0 = array('lang'=>$this->currentLang,'isnavigation'=>1,'parent'=>0);
+            $data_level0 = $this->CI->Data_model->getData($datawhere_level0,'listorder',0,0,'category');
+
+            if(!empty($data_level0)){
+                $data = $data_level0;
+
+                foreach($data_level0 as $key_level0=>$item_level0){
+                    $datawhere_level1 = array('lang'=>$this->currentLang,'isnavigation'=>1,'parent'=>$item_level0['id']);
+                    $data_level1 = $this->CI->Data_model->getData($datawhere_level1,'listorder',0,0,'category');
+
+                    if(!empty($data_level1)){
+                        $data[$key_level0]['child_arr'] = $data_level1;
+
+//                        foreach($data_level1 as $key_level1=>$item_level1) {
+//                            $datawhere_level2 = array('lang' => $this->currentLang, 'isnavigation' => 1, 'parent' => $item_level1['id']);
+//                            $data_level2 = $this->CI->Data_model->getData($datawhere_level2, 'listorder', 0, 0, 'category');
+//
+//                            if(!empty($data_level2)) {
+//                                $data[$key_level0]['child_arr'][$key_level1]['child_arr'] = $data_level2;
+//                            }else{
+//                                $data[$key_level0]['child_arr'][$key_level1]['child_arr'] = array();
+//                            }
+//                        }
+                    }else{
+                        $data[$key_level0]['child_arr'] = array();
+                    }
+                }
+
+            }else{
+                $data = array();
+            }
+
+            $cache = $this->handleCategoryData($data);
+            $this->CI->cache->save($cachestr,$cache,2592000);
 		}
 		return $cache;
 	}

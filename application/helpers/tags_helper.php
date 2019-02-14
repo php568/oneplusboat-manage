@@ -56,14 +56,19 @@ function x6cms_category($num=0){
 	$data=$CI->Cache_model->loadCategory($num);
 	return $data;
 }
-//»ñÈ¡»ÃµÆÆ¬ÀàÐÍ
+function x6cms_categoryArr(){
+    $CI =& get_instance();
+    $data=$CI->Cache_model->loadCategoryArr();
+    return $data;
+}
+//ï¿½ï¿½È¡ï¿½Ãµï¿½Æ¬ï¿½ï¿½ï¿½ï¿½
 function x6cms_slideType($pos){
 	$CI =& get_instance();
 	$data=$CI->Cache_model->loadSlideType($pos);
 	return $data;
 }
 
-//»ñÈ¡»ÃµÆÆ¬
+//ï¿½ï¿½È¡ï¿½Ãµï¿½Æ¬
 function x6cms_slide($type){
 	$CI =& get_instance();
 	$data=$CI->Cache_model->loadSlide($type);
@@ -134,7 +139,7 @@ function x6cms_related($detail,$num=5){
 	return $data;
 }
 
-//Í¨¹ýÊôÐÔID£¬»ñÈ¡µ¥¸öÊôÐÔÐÅÏ¢
+//Í¨ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½IDï¿½ï¿½ï¿½ï¿½È¡ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ï¢
 function x6cms_attribute($id){
 	$CI =& get_instance();
 	$data=$CI->Cache_model->loadAttributeByID($id);
@@ -153,14 +158,14 @@ function x6cms_attributebyparent($parent){
 	return $data;
 }
 
-//»ñÈ¡ËùÓÐÊôÐÔÐÅÏ¢
+//ï¿½ï¿½È¡ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ï¢
 function x6cms_thisattribute($ids){
 	$CI =& get_instance();
 	$data=$CI->Cache_model->loadThisAttribute($ids);
 	return $data;
 }
 
-//»ñÈ¡ËùÓÐÊôÐÔÐÅÏ¢
+//ï¿½ï¿½È¡ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ï¢
 function x6cms_allattribute(){
 	$CI =& get_instance();
 	$data=$CI->Cache_model->loadAllAttribute();
