@@ -92,7 +92,7 @@
 <?php $this->load->view($config['site_template'].'/foot');?>
 
 <script charset="utf-8" src="<?=$config['site_templateurl'];?>/layui/layui.all.js"></script>
-<script>window.HELP_IMPROVE_VIDEOJS = false; jQuery = layui.jquery; site_url= <?=site_url('post/guestbook'.$langurl)?></script>
+<script>window.HELP_IMPROVE_VIDEOJS = false; jQuery = layui.jquery; site_url= "<?=site_url('post/guestbook'.$langurl)?>";</script>
 <script charset="utf-8" src="<?=$config['site_templateurl'];?>/js/contact-us.js"></script>
 </body>
 </html>
