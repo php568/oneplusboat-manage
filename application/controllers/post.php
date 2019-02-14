@@ -48,21 +48,15 @@ class Post extends CI_Controller {
 					
 					$mailconfig = $this->Cache_model->loadConfig('mail');
 					$config['protocol'] = $mailconfig['mail_type'];//'smtp';
-					$config['smtp_host']=$mailconfig['smtp_host'];//'smtp.qq.com';//smtpµØÖ·
-					$config['smtp_user']=$mailconfig['smtp_user'];//·¢ÓÊ¼şÕÊºÅ
+					$config['smtp_host']=$mailconfig['smtp_host'];//'smtp.qq.com';//smtpï¿½ï¿½Ö·
+					$config['smtp_user']=$mailconfig['smtp_user'];//ï¿½ï¿½ï¿½Ê¼ï¿½ï¿½Êºï¿½
 					$config['smtp_pass']=$mailconfig['smtp_pass'];
 					$config['smtp_port']=$mailconfig['smtp_port'];//'25';
 					//$config['smtp_crypto']='ssl';
-					$config['charset'] = 'utf-8';//ÄãµÄÍøÒ³±àÂë
+					$config['charset'] = 'utf-8';//ï¿½ï¿½ï¿½ï¿½ï¿½Ò³ï¿½ï¿½ï¿½ï¿½
 					$config['mailtype'] = 'html';
 					$config['wordwrap'] = TRUE;
 
-					/**
-					 * Ä¬ÈÏEmailÀàÖĞ var $newline= "\n";   var $crlf= "\n";  ÕâÁ½ÏîÊÇÕâÑùµÄ¡£
-					 * ÔÚ163ÓÊÏäÖĞ¿ÉÒÔÍ¨¹ı¡£¶øÌÚÑ¶ÓÊÏä·şÎñÆ÷ºÃÏñ²»Ö§³Ö£¬ËùÒÔ¾ÍÊÇ³öÏÖ´íÎóµÄ×ï¿ı»öÊ×¡£
-					 * °ÑÕâÁ½Ïî¸Ä³É$config['crlf']="\r\n";   $config['newline']="\r\n"; 
-					 * ¾ÍÍê³ÉÖ§³ÖÌÚÑ¶ÓÊÏä·şÎñÆ÷ÁË
-					 */
 					$config['crlf']="\r\n";
 					$config['newline']="\r\n";
 
@@ -78,7 +72,7 @@ class Post extends CI_Controller {
 					
 					$this->email->initialize($config);
 					$this->email->from($mailconfig['smtp_user'], lang('c_emailadminsend'));
-					$this->email->to($mailconfig['smtp_sendmail']);//ÊÕÓÊ¼şÕÊºÅ
+					$this->email->to($mailconfig['smtp_sendmail']);//ï¿½ï¿½ï¿½Ê¼ï¿½ï¿½Êºï¿½
 					$this->email->subject($subject);
 					$this->email->message($content);
 					$this->email->send();

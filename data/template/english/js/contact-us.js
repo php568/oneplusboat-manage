@@ -59,7 +59,7 @@
         var field = $('#webform-client-form-2691').serialize();
         $.ajax({
             type: "POST",
-            url: "/form.php",
+            url: site_url,
             data: field,
             dataType: "json",
             success: function(data){
