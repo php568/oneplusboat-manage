@@ -50,7 +50,7 @@ class Post extends CI_Controller {
 					$config['smtp_user']=$mailconfig['smtp_user'];
 					$config['smtp_pass']=$mailconfig['smtp_pass'];
 					$config['smtp_port']=$mailconfig['smtp_port'];
-					//$config['smtp_crypto']='ssl';
+					$config['smtp_crypto']='ssl';
 					$config['charset'] = 'utf-8';
 					$config['mailtype'] = 'html';
 					$config['wordwrap'] = TRUE;
