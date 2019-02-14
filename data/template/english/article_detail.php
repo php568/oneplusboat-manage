@@ -15,7 +15,7 @@
     <div id="content" class="column" role="main">
       <div class="content-wrapper">
         <div id="content-inner">
-          <nav class="breadcrumb" role="navigation"><h2 class="element-invisible">You are here</h2><ol><li><a href="/">Home</a> › </li><li><a href="<?php echo site_url('category/'.$category['dir'].$langurl) ;?>">News</a> › </li><li>2019 New Year Greetings</li></ol></nav>
+          <nav class="breadcrumb" role="navigation"><h2 class="element-invisible">You are here</h2><ol><li><a href="/">Home</a> › </li><li><a href="<?php echo site_url('category/'.$category['dir'].$langurl) ;?>">News</a> › </li><li><?=$detail['title']?></li></ol></nav>
           <a id="main-content"></a>
           <h1 class="page__title title" id="page-title"><?=$detail['title']?></h1>
           <article class="node-4511 node node-blog node-promoted view-mode-full clearfix" about="2019 New Year Greetings" typeof="sioc:Post sioct:BlogPost">
