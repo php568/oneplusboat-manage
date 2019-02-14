@@ -17,7 +17,7 @@ class Post extends CI_Controller {
 		$data = array();
 		$message = '';
 		$iserror = FALSE;
-		$data['email'] = trim($post['email']);
+		$data['email'] = trim($post['submitted']['email']);
 		if($data['email']==''){
 			$message .= lang('emailtip1');
 			$iserror = TRUE;
@@ -26,20 +26,18 @@ class Post extends CI_Controller {
 			$message .= lang('emailtip2');
 			$iserror = TRUE;
 		}
-		$data['content'] = trim($post['content']);
+		$data['content'] = trim($post['submitted']['message']);
 		if($data['content']==''){
 			$message .= lang('contenttip');
 			$iserror = TRUE;
 		}
 		if($message==''){
-			$category = $this->Data_model->getSingle(array('id'=>$post['category'],'model'=>'guestbook'),'category');
+			$category = $this->Data_model->getSingle(array('id'=>$post['submitted']['category'],'model'=>'guestbook'),'category');
 			if($category&&$category['isdisabled']==0){
-				$data['category'] = $post['category'];
-				$data['firstname'] = $post['firstname'];
-				$data['surname'] = $post['surname'];
-				$data['gender'] = $post['gender'];
-				$data['phone'] = $post['phone'];
-				$data['country'] = $post['country'];
+                $data['title'] = $post['submitted']['subject'];
+				$data['category'] = $post['submitted']['category'];
+				$data['firstname'] = $post['submitted']['name'];
+				$data['phone'] = $post['submitted']['telephone'];
 				$data['status'] = 0;
 				$data['lang'] = $category['lang'];
 				$data['createtime'] = time();
@@ -48,12 +46,12 @@ class Post extends CI_Controller {
 					
 					$mailconfig = $this->Cache_model->loadConfig('mail');
 					$config['protocol'] = $mailconfig['mail_type'];//'smtp';
-					$config['smtp_host']=$mailconfig['smtp_host'];//'smtp.qq.com';//smtp��ַ
-					$config['smtp_user']=$mailconfig['smtp_user'];//���ʼ��ʺ�
+					$config['smtp_host']=$mailconfig['smtp_host'];//'smtp.qq.com';
+					$config['smtp_user']=$mailconfig['smtp_user'];
 					$config['smtp_pass']=$mailconfig['smtp_pass'];
-					$config['smtp_port']=$mailconfig['smtp_port'];//'25';
+					$config['smtp_port']=$mailconfig['smtp_port'];
 					//$config['smtp_crypto']='ssl';
-					$config['charset'] = 'utf-8';//�����ҳ����
+					$config['charset'] = 'utf-8';
 					$config['mailtype'] = 'html';
 					$config['wordwrap'] = TRUE;
 

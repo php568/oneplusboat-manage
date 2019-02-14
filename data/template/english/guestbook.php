@@ -46,6 +46,7 @@
                   </div>
                 </div>
                 <div class="layui-form-item form-actions form-wrapper" id="edit-actions">
+                  <input type="hidden" name="submitted[category]" id="edit-category" value="<?=$category['id']?>">
                   <input type="button" id="edit-submit" name="op" value="Submit" class="form-submit" lay-submit lay-filter="edit-submit" />
                 </div>
               </div>
