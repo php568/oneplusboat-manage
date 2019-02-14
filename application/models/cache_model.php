@@ -643,6 +643,22 @@ class Cache_model extends CI_Model{
 			}else{
 				$item['level'] = 1;
 			}
+            if(!empty($item['child_arr'])){
+                $list_tmp = array();
+                foreach($item['child_arr'] as $key=>&$value){
+                    $value['url'] = (isset($value['isexternal']) && $value['isexternal']==1)?$value['externalurl']:site_url('category/'.$value['dir'].$this->langurl);
+                    $value['rssurl'] = (isset($value['isexternal']) && $value['isexternal']==1)?$value['externalurl']:site_url('rss/'.$value['dir'].$this->langurl);
+                    //$value['url'] = $value['isexternal']==1?$value['externalurl']:site_url('category/'.$value['dir']).$this->langurl;
+                    //$value['rssurl'] =  $value['isexternal']==1?$value['externalurl']:site_purl('rss/'.$value['dir']).$this->langurl;
+                    $value['thumb'] = get_image_url($value['thumb']);
+                    $value['color'] = (isset($value['color']) && $value['color']=='')?'':' color:'.$value['color'].'; ';
+                    if(isset($list_tmp[$value['parent']])){
+                        $value['level'] = $list_tmp[$value['parent']]['level']+1;
+                    }else{
+                        $value['level'] = 1;
+                    }
+                }
+            }
 			$list[$item['id']] = $item;
 		}
 		unset($data,$item);
