@@ -64,13 +64,25 @@
             dataType: "json",
             success: function(data){
                 console.log(data);
-                layer.msg('Success', {
-                    offset: '15px'
-                    ,icon: 1
-                    ,time: 1000
-                }, function() {
-                    // location.hash = '/user/login'; //跳转到登入页
-                });
+                if(data.code =='00000'){
+                    layer.msg(data.message, {
+                        offset: '15px'
+                        ,icon: 1
+                        ,time: 2000000000000000000
+                    }, function() {
+                        // location.hash = '/user/login'; //跳转到登入页
+                        $("#webform-client-form-2691 input[type=text],textarea").val('');
+                    });
+                } else {
+                    layer.msg(data.message, {
+                        offset: '15px'
+                        ,icon: 1
+                        ,time: 2000000000000000000
+                    }, function() {
+                        // location.hash = '/user/login'; //跳转到登入页
+                        $("#webform-client-form-2691 input[type=text],textarea").val('');
+                    });
+                }
             }
         });
     });
