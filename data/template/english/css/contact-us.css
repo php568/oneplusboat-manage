@@ -43,7 +43,7 @@ body{
 #block-block-1{margin: 10px auto;color:#fff;}
 #dituContent{width:640px;height:300px;border:#ccc solid 1px;}
 .tb-megamenu .nav-collapse{height: 0px; overflow: hidden;}
-
+.layui-layer-dialog .layui-layer-content{color:black;font-weight: bold;}
 @media (max-width:979px) {
     .tb-megamenu {background-color: rgba(0,0,0,0);}
     #block-tb-megamenu-main-menu{top:0em;}
