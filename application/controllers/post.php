@@ -101,7 +101,7 @@ class Post extends CI_Controller {
         }
 		$res = array(
 		    'code' => $code,
-		    'config'=>$config,
+//		    'config'=>$config,
             'message'=>$message,
             'actionurl'=>$actionurl,
             'langurl'=>$this->Cache_model->langurl

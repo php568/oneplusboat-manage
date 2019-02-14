@@ -107,3 +107,35 @@ $lang['c_message'] = '留言';
 $lang['c_address'] = '地址';
 
 $lang['nodata'] = '暂无数据';
+
+//product
+$lang['attribute'] = '属性';
+
+//mail
+$lang['c_emailtitle'] = '取得联系';
+$lang['c_emailadminsend'] = '简泊船舶';
+$lang['c_emailadmincontent'] = "<table class='outer-table' border='0' cellspacing='0' cellpadding='0' width='552' style='border:1px solid #dedede;border-bottom:2px solid #dedede;margin:0 auto;background-color:#ffffff;'>".
+    "<tbody>".
+    "    <tr>".
+    "        <td align='center' class='title-block' style='padding:30px 25px 30px;'>".
+    "            <div class='fontSize' style='font-size:13px;'>".
+    "                <div class='fontSizeBig' style='font-size:25px;text-indent:3px;'>".
+    "                    TITLE_LIUS_LTF".
+    "                </div>".
+    "            </div>".
+    "        </td>".
+    "    </tr>".
+    "    <tr>".
+    "        <td class='second-block' style='padding:0 25px 25px;'>".
+    "            <div class='answer-block' style='margin-bottom:10px;padding-top:10px;border-top: 1px dotted #EEE;'>".
+    "                <div style='margin-bottom:6px;'>".
+    "                    <span class='fontSizeMid' style='font-size:14px;line-height:22px;font-weight:bold;text-decoration:none;color:#259;border:none;outline:none;'".
+    "                   >".
+    "                        CONTENT_LIUS_LTF".
+    "                    </span>".
+    "                </div>".
+    "            </div>".
+    "        </td>".
+    "    </tr>".
+    "</tbody>".
+    "</table>";
