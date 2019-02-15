@@ -4,7 +4,7 @@
         <ul>
             <li class="first">
                 <a href="<?=site_url('category/news'.$langurl);?>" class="active">
-                    2019 New Year Greetings
+                    We are making the step forward!
                 </a>
             </li>
         </ul>

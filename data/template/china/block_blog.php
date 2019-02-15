@@ -6,12 +6,12 @@
                 <div class="views-field views-field-field-photo-image">
                     <div class="field-content">
                         <a href="<?=site_url('category/news'.$langurl);?>">
-                            <img typeof="foaf:Image" src="<?=$config['site_templateurl'];?>/sites/default/files/news.jpg" width="270" height="175" alt="2019新年问候" />
+                            <img typeof="foaf:Image" src="<?=$config['site_templateurl'];?>/sites/default/files/20190215110808111.jpg" width="270" height="175" alt="We are making the step forward!" />
                         </a>
                     </div>
                 </div>
                 <div class="views-field views-field-title">
-                    <span class="field-content"><a href="<?=site_url('category/news'.$langurl);?>">2019新年问候</a></span>
+                    <span class="field-content"><a href="<?=site_url('category/news'.$langurl);?>">We are making the step forward!</a></span>
                 </div>
             </div>
         </div>
