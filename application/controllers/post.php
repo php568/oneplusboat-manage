@@ -37,6 +37,7 @@ class Post extends CI_Controller {
                 $data['title'] = $post['submitted']['subject'];
 				$data['category'] = $post['submitted']['category'];
 				$data['firstname'] = $post['submitted']['name'];
+				$data['author'] = $post['submitted']['name'];
 				$data['phone'] = $post['submitted']['telephone'];
 				$data['status'] = 0;
 				$data['lang'] = $category['lang'];
