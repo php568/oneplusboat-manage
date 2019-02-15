@@ -159,8 +159,8 @@
 
           <aside class="sidebars">
               <section class="region region-sidebar-second column sidebar">
-                  <?php $this->load->view($config['site_template'].'/block-parts');?>
-                  <?php $this->load->view($config['site_template'].'/block-blog');?>
+                  <?php $this->load->view($config['site_template'].'/block_parts');?>
+                  <?php $this->load->view($config['site_template'].'/block_blog');?>
               </section>
           </aside>
       </div>

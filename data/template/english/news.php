@@ -83,8 +83,8 @@
         </div>
         <aside class="sidebars">
             <section class="region region-sidebar-second column sidebar">
-                <?php $this->load->view($config['site_template'].'/block-recent');?>
-                <?php $this->load->view($config['site_template'].'/block-3');?>
+                <?php $this->load->view($config['site_template'].'/block_recent');?>
+                <?php $this->load->view($config['site_template'].'/block_3');?>
             </section>
         </aside>
     </div>

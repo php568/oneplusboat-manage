@@ -405,8 +405,8 @@
 
         <aside class="sidebars">
             <section class="region region-sidebar-second column sidebar">
-                <?php $this->load->view($config['site_template'].'/block-blog');?>
-                <?php $this->load->view($config['site_template'].'/block-3');?>
+                <?php $this->load->view($config['site_template'].'/block_blog');?>
+                <?php $this->load->view($config['site_template'].'/block_3');?>
             </section>
         </aside>
     </div>
