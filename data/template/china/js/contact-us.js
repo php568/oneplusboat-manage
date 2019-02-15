@@ -24,6 +24,10 @@
 
     $( "#edit-submit" ).click(function() {
         $( "#edit-submit" ).attr('disabled',true);
+        //loading层
+        var index = layer.load(1, {
+            shade: [0.1,'#fff'] //0.1透明度的白色背景
+        });
         var field = $('#webform-client-form-2691').serialize();
         $.ajax({
             type: "POST",
@@ -33,6 +37,7 @@
             success: function(data){
                 $( "#edit-submit" ).removeAttr('disabled');
                 console.log(data);
+                layer.closeAll('loading');
                 if(data.code =='00000'){
                     layer.msg(data.message, {
                         offset: '15px'
