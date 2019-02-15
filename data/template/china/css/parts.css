@@ -64,7 +64,7 @@ body {
 .view-id-taxonomy_images .views-field-name{ padding-top: 10px; padding-bottom: 10px;height: 35px;margin-top:0px;}
 /*.view-taxonomy-images .views-column{ width:50%; height: 230px; margin-right:0; margin-bottom:0; }*/
 .tb-megamenu .nav-collapse{height: 0px; overflow: hidden;}
-
+#content .view a:link,#content .view a:visited{color:#fff;}
 
 @media all and (min-width:480px){
     .view-taxonomy-images .views-column { height: 170px; margin-right: 20px; float: left; min-height: 160px; margin-bottom: 20px;}
