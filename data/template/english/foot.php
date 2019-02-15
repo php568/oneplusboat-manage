@@ -1,9 +1,9 @@
 <div class="region region-bottom">
   <div id="block-menu-menu-footer-menu" class="block block-menu first odd" role="navigation">
     <ul class="menu">
-      <li class="menu__item is-leaf first leaf"><a href="/about-us.html" class="menu__link">About Us</a></li>
-      <li class="menu__item is-leaf leaf"><a href="/optimist-racer.html" class="menu__link">Boats</a></li>
-      <li class="menu__item is-leaf last leaf"><a href="/contact-us.html" class="menu__link">Contact Us</a></li>
+      <li class="menu__item is-leaf first leaf"><a href="<?=site_url('category/about-us'.$langurl);?>" class="menu__link">About Us</a></li>
+      <li class="menu__item is-leaf leaf"><a href="<?=site_url('category/optimist-racer'.$langurl);?>" class="menu__link">Boats</a></li>
+      <li class="menu__item is-leaf last leaf"><a href="<?=site_url('category/contact-us'.$langurl);?>" class="menu__link">Contact Us</a></li>
     </ul>
   </div>
   <div id="block-block-1" class="block block-block last even">

@@ -1,9 +1,9 @@
 <div class="region region-bottom">
     <div id="block-menu-menu-footer-menu" class="block block-menu first odd" role="navigation">
         <ul class="menu">
-            <li class="menu__item is-active-trail is-leaf first leaf active-trail"><a href="/zh-cn/about-us.html" class="menu__link is-active-trail active-trail active">关于我们</a></li>
-            <li class="menu__item is-leaf leaf"><a href="/zh-cn/optimist-racer.html" class="menu__link">帆船</a></li>
-            <li class="menu__item is-leaf last leaf"><a href="/zh-cn/contact-us.html" class="menu__link">联系我们</a></li>
+            <li class="menu__item is-leaf first leaf"><a href="<?=site_url('category/about-us'.$langurl);?>" class="menu__link">关于我们</a></li>
+            <li class="menu__item is-leaf leaf"><a href="<?=site_url('category/optimist-racer'.$langurl);?>" class="menu__link">帆船</a></li>
+            <li class="menu__item is-leaf last leaf"><a href="<?=site_url('category/contact-us'.$langurl);?>" class="menu__link">联系我们</a></li>
         </ul>
     </div>
     <div id="block-block-1" class="block block-block last even">
