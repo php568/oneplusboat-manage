@@ -14,7 +14,7 @@
 | path to your installation.
 |
 */
-$config['base_url']	= 'http://admin.oneplusboat.com/';
+$config['base_url']	= 'http://www.oneplusboat.com/';
 
 /*
 |--------------------------------------------------------------------------

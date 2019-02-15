@@ -236,7 +236,7 @@
             <div id="block-block-11" class="block block-block odd">
               <h2 class="block__title block-title">Choose your colour</h2>
               <!--<p>
-                  <a href="http://admin.oneplusboat.com/neil-pryde">
+                  <a href="javascript:;">
                       <img src="<?=$config['site_templateurl'];?>/sites/default/files/pe-polyethylene-opti/6color.jpg" alt="Neil Pryde" width="685" height="171"/>
                   </a>
               </p>-->
@@ -244,7 +244,7 @@
                 <div class="layui-row">
                   <div class="layui-col-sm2">
                     <div class="grid-demo grid-demo-bg1">
-                      <a href="http://admin.oneplusboat.com/#">
+                        <a href="javascript:;">
                         <img src="<?=$config['site_templateurl'];?>/sites/default/files/pe-polyethylene-opti/110x170/yellow.jpg" alt="yellow" width="110" height="170"/>
                       </a>
                       <span class="grid-info">
@@ -254,7 +254,7 @@
                   </div>
                   <div class="layui-col-sm2">
                     <div class="grid-demo">
-                      <a href="http://admin.oneplusboat.com/#">
+                        <a href="javascript:;">
                         <img src="<?=$config['site_templateurl'];?>/sites/default/files/pe-polyethylene-opti/110x170/orange.jpg" alt="orange" width="110" height="170"/>
                       </a>
                       <span class="grid-info">
@@ -264,7 +264,7 @@
                   </div>
                   <div class="layui-col-sm2">
                     <div class="grid-demo grid-demo-bg1">
-                      <a href="http://admin.oneplusboat.com/#">
+                        <a href="javascript:;">
                         <img src="<?=$config['site_templateurl'];?>/sites/default/files/pe-polyethylene-opti/110x170/red.jpg" alt="red" width="110" height="170"/>
                       </a>
                       <span class="grid-info">
@@ -274,7 +274,7 @@
                   </div>
                   <div class="layui-col-sm2">
                     <div class="grid-demo">
-                      <a href="http://admin.oneplusboat.com/#">
+                        <a href="javascript:;">
                         <img src="<?=$config['site_templateurl'];?>/sites/default/files/pe-polyethylene-opti/110x170/blue.jpg" alt="blue" width="110" height="170"/>
                       </a>
                       <span class="grid-info">
@@ -284,7 +284,7 @@
                   </div>
                   <div class="layui-col-sm2">
                     <div class="grid-demo">
-                      <a href="http://admin.oneplusboat.com/#">
+                        <a href="javascript:;">
                         <img src="<?=$config['site_templateurl'];?>/sites/default/files/pe-polyethylene-opti/110x170/green.jpg" alt="green" width="110" height="170"/>
                       </a>
                       <span class="grid-info">
@@ -294,7 +294,7 @@
                   </div>
                   <div class="layui-col-sm2">
                     <div class="grid-demo">
-                      <a href="http://admin.oneplusboat.com/#">
+                        <a href="javascript:;">
                         <img src="<?=$config['site_templateurl'];?>/sites/default/files/pe-polyethylene-opti/110x170/white.jpg" alt="white" width="110" height="170"/>
                       </a>
                       <span class="grid-info">

@@ -16,12 +16,12 @@
   <meta charset="utf-8"/>
   <meta property="og:site_name" content="OnePlus Boat"/>
   <meta property="og:type" content="website"/>
-  <meta property="og:url" content="http://admin.oneplusboat.com/"/>
+  <meta property="og:url" content="http://www.oneplusboat.com/"/>
   <meta property="og:title" content="OnePlus Boat"/>
   <meta itemprop="name" content="OnePlus Boat"/>
   <meta name="dcterms.title" content="OnePlus Boat"/>
   <meta name="dcterms.type" content="Text"/>
-  <meta name="dcterms.identifier" content="http://admin.oneplusboat.com/"/>
+  <meta name="dcterms.identifier" content="http://www.oneplusboat.com/"/>
   <meta name="dcterms.format" content="text/html"/>
 <!--  <title>Home Of OnePlus Boat | OnePlus Boat</title>-->
   <title><?=$config['seo_title']?> - <?=$config['site_name']?> </title>
