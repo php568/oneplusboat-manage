@@ -31,6 +31,7 @@ class Category extends CI_Controller {
                 'dealers',
                 'about-us',
             ))){
+            $thiscategory['dir'] = str_replace('-','_', $thiscategory['dir']);
             $this->commonPage($thiscategory);
         }
 		else if($thiscategory['model']=='page'||$thiscategory['model']=='guestbook'){
