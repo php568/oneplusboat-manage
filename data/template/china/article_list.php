@@ -16,12 +16,7 @@
     <div id="content" class="column" role="main">
       <div class="content-wrapper">
         <div id="content-inner">
-          <nav class="breadcrumb" role="navigation"><h2 class="element-invisible">You are here</h2>
-            <ol>
-              <li><a href="/">Home</a> ›</li>
-              <li>News</li>
-            </ol>
-          </nav>
+          <nav class="breadcrumb" role="navigation"><h2 class="element-invisible">位置</h2><ol><li><a href="/">首页</a> › </li><li>新闻</li></ol></nav>
           <a id="main-content"></a>
           <h1 class="page__title title" id="page-title"></h1>
           <?php if($list): ?>

@@ -64,9 +64,9 @@
         <div id="content" class="column" role="main">
             <div class="content-wrapper">
                 <div id="content-inner">
-                    <!--<nav class="breadcrumb" role="navigation"><h2 class="element-invisible">位置</h2><ol><li><a href="/">首页</a> › </li><li><a href="#" title="Boats">产品</a> › </li><li>简泊比赛OP</li></ol></nav>-->
+                    <!--<nav class="breadcrumb" role="navigation"><h2 class="element-invisible">You are here</h2><ol><li><a href="/">Home</a> › </li><li><a href="#" title="Boats">Boats</a> › </li><li>Optimits-Racer</li></ol></nav>-->
                     <a id="main-content"></a>
-                    <h1 class="page__title title" id="page-title">简泊比赛OP</h1>
+                    <h1 class="page__title title" id="page-title">Optimist-Racer</h1>
                     <div class="view view-homepage view-id-homepage view-display-id-page view-dom-id-6f2cac949f64f36bb049843a0e7be506">
 
                         <div class="view-content">
@@ -80,12 +80,12 @@
                                         </div>
                                     </li>
                                     <!--<li>
-                                        <div class="views-field views-field-field-slide-image">
-                                            <div class="field-content">
-                                                <img typeof="foaf:Image" src="<?=$config['site_templateurl'];?>/sites/default/files/optimist-racer/690x428/2.jpg" width="690" height="428" alt=""/>
-                                            </div>
-                                        </div>
-                                    </li>-->
+                      <div class="views-field views-field-field-slide-image">
+                          <div class="field-content">
+                              <img typeof="foaf:Image" src="<?=$config['site_templateurl'];?>/sites/default/files/optimist-racer/690x428/2.jpg" width="690" height="428" alt=""/>
+                          </div>
+                      </div>
+                  </li>-->
                                     <li>
                                         <div class="views-field views-field-field-slide-image">
                                             <div class="field-content">
@@ -112,21 +112,17 @@
 
                             <div id="intro-1" class="views-field views-field-body">
                                 <div class="field-content">
-                                    <h1>简泊玻璃钢比赛OP帆船</h1>
-                                    <!--<h2>预览</h2>-->
+                                    <h1>OnePlus Optimist Racer</h1>
+                                    <!--<h2>OVERVIEW</h2>-->
                                     <p>
                                     <span style="font-size: medium;">
-                                        OP帆船作为孩童启蒙的第一艘帆船，早已经被全世界认可。<br/>
+                                        Originally designed in 1947, by Mr. Clark Mills . The Optimist is a small, single-handed sailing dinghy intended for use by children up to the age of 15.<br/>
+                                        The Optimist Dinghy has become the world standard as both the introductory junior trainer and a premier one design racing class. <br/>
+                                        It is the only sailboat designed specifically for children allowing them to learn the essentials of sailing without danger or fear. It is also the biggest and fastest growing racing class in the world with over 300,000 hulls built worldwide.<br/><br/>
 
-                                        随着市场需求不同，及细分化定位，市场上也出现了不同版本的“OP”帆船。<br/>
-
-                                        但是所有正规OP赛事，OP帆船必须由具备国际帆船联合会，国际OP协会认证许可的厂家生产制造，同时每一艘合格的OP帆船都有其唯一的丈量证书及国际帆船联合会授予的编号及国际帆船联合会贴纸。<br/>
-
-                                        每条船船头前侧，船只内部放置主桅杆的位置，及放稳向板的位置，都有与丈量证书匹配的号码。<br/>
-
-                                        国际OP协会对每条OP的制作方法，材料配比，规格，甚至尺寸公差及重量都有极为严格的要求，以最大程度确保船只的一致性。<br/>
-
-                                        国内获得此认证的厂家寥寥无几。有需要购买国际帆船联合会认证OP帆船的个人及俱乐部学校等，需要仔细确认！<br/>
+                                        Why OnePlus Boats?<br/>
+                                        Our staffs have been working for the production of optimist; services for the repair, championships, more than 15 years.<br/>
+                                        Thanks for the globalization, we have accesses to learn advances in Western technology, and to use the world best materials to build the boats. Meanwhile, We Chinese have thousands years history of great craftsmanship. With all of these factors, we OnePlus Boat can make the best quality boats with reasonable price. <br/>
                                         </span>
                                     </p>
                                 </div>
@@ -213,11 +209,10 @@
             <div id="navigation">
             </div>
         </div>
-
-    <aside class="sidebars">
-      <section class="region region-sidebar-second column sidebar">
-          <?php $this->load->view($config['site_template'].'/block_parts');?>
-          <?php $this->load->view($config['site_template'].'/block_blog');?>
+        <aside class="sidebars">
+            <section class="region region-sidebar-second column sidebar">
+                <?php $this->load->view($config['site_template'].'/block_parts');?>
+                <?php $this->load->view($config['site_template'].'/block_blog');?>
 
                 <div id="block-views-table-block" class="block block-views last even">
                     <div class="table">
@@ -233,32 +228,32 @@
                         </div>
                         <div class="table-row-group">
                             <ul class="table-row">
-                                <li class="table-cell table-cell1">规格</li>
-                                <li class="table-cell">简泊比赛OP</li>
+                                <li class="table-cell table-cell1">SPEC</li>
+                                <li class="table-cell">OnePlus Racer</li>
                             </ul>
                             <ul class="table-row">
-                                <li class="table-cell table-cell1">船长</li>
-                                <li class="table-cell">2.3米</li>
+                                <li class="table-cell table-cell1">Length</li>
+                                <li class="table-cell">2.3m</li>
                             </ul>
                             <ul class="table-row">
-                                <li class="table-cell table-cell1">船宽</li>
-                                <li class="table-cell">1.14米</li>
+                                <li class="table-cell table-cell1">Beam</li>
+                                <li class="table-cell">1.14m</li>
                             </ul>
                             <ul class="table-row">
-                                <li class="table-cell table-cell1">船体重量</li>
-                                <li class="table-cell">35公斤</li>
+                                <li class="table-cell table-cell1">Hull Weight</li>
+                                <li class="table-cell">35kg</li>
                             </ul>
                             <ul class="table-row">
-                                <li class="table-cell table-cell1">帆面积</li>
-                                <li class="table-cell">3.25平方米</li>
+                                <li class="table-cell table-cell1">Sail Area</li>
+                                <li class="table-cell">3.25㎡</li>
                             </ul>
                             <ul class="table-row">
-                                <li class="table-cell table-cell1">材质</li>
-                                <li class="table-cell">玻璃钢</li>
+                                <li class="table-cell table-cell1">Material</li>
+                                <li class="table-cell">GRP</li>
                             </ul>
                             <ul class="table-row">
-                                <li class="table-cell table-cell1">载荷</li>
-                                <li class="table-cell">1人</li>
+                                <li class="table-cell table-cell1">Crew</li>
+                                <li class="table-cell">1</li>
                             </ul>
                         </div>
                         <div class="table-footer-group">
@@ -271,6 +266,7 @@
                 </div>
             </section>
         </aside>
+
     </div>
 </div>
 

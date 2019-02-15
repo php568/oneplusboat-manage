@@ -1,5 +1,5 @@
 <div id="block-bean-boat-repair" class="block block-bean first odd">
-    <h2 class="block__title block-title">配件</h2>
+    <h2 class="block__title block-title">Parts</h2>
     <div class="entity entity-bean bean-homepage-block clearfix" about="parts" typeof="">
         <div class="content">
             <div class="field field-name-field-image-block field-type-image field-label-hidden">
