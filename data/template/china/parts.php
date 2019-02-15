@@ -405,35 +405,8 @@
 
         <aside class="sidebars">
             <section class="region region-sidebar-second column sidebar">
-                <div id="block-views-blog-posts-block" class="block block-views odd">
-                    <h2 class="block__title block-title">新闻...</h2>
-                    <div class="view view-blog-posts view-id-blog_posts view-display-id-block view-dom-id-76e88c68cdb6da7a6c8c1cb7951e0653">
-                        <div class="view-content">
-                            <div class="views-row views-row-1 views-row-odd views-row-first views-row-last">
-                                <div class="views-field views-field-field-photo-image">
-                                    <div class="field-content">
-                                        <a href="/zh-cn/news-list.html" target="_blank">
-                                            <img typeof="foaf:Image"
-                                                 src="<?=$config['site_templateurl'];?>/sites/default/files/news.jpg"
-                                                 width="270" height="175" alt="2019新年问候"/>
-                                        </a>
-                                    </div>
-                                </div>
-                                <div class="views-field views-field-title">
-                                    <span class="field-content">
-                                        <a href="/zh-cn/news-list.html">
-                                            2019新年问候
-                                        </a>
-                                    </span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div id="block-block-3" class="block block-block even">
-                    <h2 class="block__title block-title">联系我们</h2>
-                    <p>请通过电话 186 2193 5526 或者<a href="/zh-cn/contact-us.html">电子邮件</a> 联系我们，获取更多信息。</p>
-                </div>
+                <?php $this->load->view($config['site_template'].'/block-blog');?>
+                <?php $this->load->view($config['site_template'].'/block-3');?>
             </section>
         </aside>
     </div>

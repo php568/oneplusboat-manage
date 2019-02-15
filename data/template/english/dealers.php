@@ -269,38 +269,13 @@
 
     </div>
 
-    <aside class="sidebars">
-      <section class="region region-sidebar-second column sidebar">
-        <div id="block-views-blog-posts-block" class="block block-views odd">
-
-          <h2 class="block__title block-title">News...</h2>
-
-          <div class="view view-blog-posts view-id-blog_posts view-display-id-block view-dom-id-44084f96e7251f47fb1d50d999733ce1">
-
-            <div class="view-content">
-              <div class="views-row views-row-1 views-row-odd views-row-first views-row-last">
-                <div class="views-field views-field-field-photo-image">
-                  <div class="field-content">
-                    <a href="/news-list.html">
-                      <img typeof="foaf:Image"
-                           src="<?=$config['site_templateurl'];?>/sites/default/files/news.jpg" width="270" height="175" alt="2019 New Year Greetings" />
-                    </a>
-                  </div>
-                </div>
-                <div class="views-field views-field-title">
-                    <span class="field-content">
-                        <a href="/news-list.html">2019 New Year Greetings</a></span>  </div>  </div>
-            </div>
-
-          </div>
-        </div>
-        <div id="block-block-3" class="block block-block even">
-          <h2 class="block__title block-title">Contact Us</h2>
-          <p>Call us on 0086 186 2193 5526 or <a href="contact-us.html">via email</a> for assistance with your order</p>
-        </div>
-      </section>
-    </aside>
-  </div>
+        <aside class="sidebars">
+            <section class="region region-sidebar-second column sidebar">
+                <?php $this->load->view($config['site_template'].'/block-blog');?>
+                <?php $this->load->view($config['site_template'].'/block-3');?>
+            </section>
+        </aside>
+    </div>
 </div>
 
 <?php $this->load->view($config['site_template'].'/foot');?>

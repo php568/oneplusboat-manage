@@ -81,25 +81,8 @@
 
         <aside class="sidebars">
             <section class="region region-sidebar-second column sidebar">
-                <div id="block-blog-recent" class="block block-blog first odd" role="navigation">
-                    <h2 class="block__title block-title">Recent posts</h2>
-                    <div class="item-list">
-                        <ul>
-                            <li class="first">
-                                <a href="news.html" class="active">
-                                    2019 New Year Greetings
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="more-link">
-                        <a href="news.html" title="Read the latest blog entries." class="active">More</a>
-                    </div>
-                </div>
-                <div id="block-block-3" class="block block-block even">
-                    <h2 class="block__title block-title">Contact Us</h2>
-                    <p>Call us on 0086 186 2193 5526 or <a href="contact-us.html">via email</a> for assistance with your order</p>
-                </div>
+                <?php $this->load->view($config['site_template'].'/block-recent');?>
+                <?php $this->load->view($config['site_template'].'/block-3');?>
             </section>
         </aside>
     </div>

@@ -43,21 +43,8 @@
         </div>
         <aside class="sidebars">
             <section class="region region-sidebar-second column sidebar">
-                <div id="block-blog-recent" class="block block-blog first odd" role="navigation">
-                    <h2 class="block__title block-title">最新新闻</h2>
-                    <div class="item-list">
-                        <ul>
-                            <li class="first last"><a href="/zh-cn/news.html" class="active">2019新年问候</a></li>
-                        </ul>
-                    </div>
-                    <div class="more-link">
-                        <a href="/zh-cn/news-list.html" title="Read the latest blog entries." class="active">More</a>
-                    </div>
-                </div>
-                <div id="block-block-3" class="block block-block even">
-                    <h2 class="block__title block-title">联系我们</h2>
-                    <p>请通过电话 186 2193 5526 或者<a href="/zh-cn/contact-us.html">电子邮件</a> 联系我们，获取更多信息。</p>
-                </div>
+                <?php $this->load->view($config['site_template'].'/block-recent');?>
+                <?php $this->load->view($config['site_template'].'/block-3');?>
             </section>
         </aside>
     </div>
