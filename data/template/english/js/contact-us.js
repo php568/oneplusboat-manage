@@ -45,7 +45,7 @@
                         ,time: 2000
                     }, function() {
                         // location.hash = '/user/login'; //跳转到登入页
-                        $("#webform-client-form-2691 input[type=text],textarea").val('');
+                        $("#webform-client-form-2691 input[type=text],input[type=email],textarea").val('');
                     });
                 } else {
                     layer.msg(data.message, {
