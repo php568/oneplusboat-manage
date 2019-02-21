@@ -36,8 +36,11 @@
   <link type="text/css" rel="stylesheet" href="<?=$config['site_templateurl'];?>/sites/default/files/advagg_css/css__41zUXBKOEU372pSLHsdFExY9LtvKhniLfUsKL_Avbjk__7euyz90bSKg0_ANgftc3Xf4J_mjPAPtaVr8knRIl6Tc__ajtl5luqwPIno5HZrQI719QK_aLTjJ2u5I7jOUzzXOI.css" media="all"/>
   <link type="text/css" rel="stylesheet" href="<?=$config['site_templateurl'];?>/sites/default/files/advagg_css/css__nK0VPh-CNQQFunEK_lCl1cut1GZ_ZUQXOOY0wPiQ4aU__C8jfzkpXEtdqNwCJhEZWnfrWeima0ebXQoGT4J_tupk__ajtl5luqwPIno5HZrQI719QK_aLTjJ2u5I7jOUzzXOI.css" media="all"/>
   <link type="text/css" rel="stylesheet" href="<?=$config['site_templateurl'];?>/sites/default/files/advagg_css/css__Mj-bIy5ZdhbjdVA7pHj7Qe9m1oxe9CofTDqdsAN1VkQ__3prFeLb_afdguwIlPlT7j2yNOxXL1V-zHkJXtlD9PY0__ajtl5luqwPIno5HZrQI719QK_aLTjJ2u5I7jOUzzXOI.css" media="all"/>
-  <link type="text/css" rel="stylesheet" href="<?=$config['site_templateurl'];?>/layui/css/layui.css" media="all" />
-  <!--<link type="text/css" rel="stylesheet" href="//layui.hcwl520.com.cn/layui/css/layui.css?v=201811010202" media="all" />-->
+    <!--<link type="text/css" rel="stylesheet" href="<?=$config['site_templateurl'];?>/layui/css/layui.css" media="all" />-->
+  <link type="text/css" rel="stylesheet" href="https://cdn.90so.net/layui/2.4.5/css/layui.css" media="all" />
+  <style>
+    body{font-family: "Microsoft YaHei", 微软雅黑, "Microsoft JhengHei", 华文细黑, STHeiti, MingLiu;line-height: 1.5em;}
+  </style>
   <script type="text/javascript">
       var temp_url = "<?=$config['site_templateurl'];?>";
   </script>

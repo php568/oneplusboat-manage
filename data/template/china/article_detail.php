@@ -51,9 +51,7 @@
 </div>
 
 <?php $this->load->view($config['site_template'].'/foot');?>
-
-<script charset="utf-8" src="<?=$config['site_templateurl'];?>/layui/layui.all.js"></script>
-<script>window.HELP_IMPROVE_VIDEOJS = false; jQuery = layui.jquery</script>
+<?php $this->load->view($config['site_template'].'/common_js');?>
 <script charset="utf-8" src="<?=$config['site_templateurl'];?>/js/news.js"></script>
 </body>
 </html>

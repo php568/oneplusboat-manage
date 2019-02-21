@@ -72,9 +72,7 @@
 </div>
 
 <?php $this->load->view($config['site_template'].'/foot');?>
-
-<script charset="utf-8" src="<?=$config['site_templateurl'];?>/layui/layui.all.js"></script>
-<script>window.HELP_IMPROVE_VIDEOJS = false; jQuery = layui.jquery</script>
+<?php $this->load->view($config['site_template'].'/common_js');?>
 <script type="text/javascript" src="http://api.map.baidu.com/api?v=1.5&ak=2b866a6daac9014292432d81fe9b47e3"></script>
 <script charset="utf-8" src="<?=$config['site_templateurl'];?>/js/contact-us.js"></script>
 <script type="text/javascript">
