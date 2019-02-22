@@ -51,25 +51,27 @@ class Post extends CI_Controller {
 					$config['smtp_user']=$mailconfig['smtp_user'];
 					$config['smtp_pass']=$mailconfig['smtp_pass'];
 					$config['smtp_port']=$mailconfig['smtp_port'];
-					$config['smtp_crypto']='ssl';
+                    $config['smtp_crypto']='ssl';
+                    $config['smtp_timeout']=50;
 					$config['charset'] = 'utf-8';
 					$config['mailtype'] = 'html';
 					$config['wordwrap'] = TRUE;
+                    $config['_replyto_flag']=TRUE;
 
 					$config['crlf']="\r\n";
 					$config['newline']="\r\n";
 
-					$subject = '['.$data['email'].'] '.lang('c_emailtitle');
-					$str_content =  'First Name:' . $data['firstname'].'<br/>'.
-									'Surname:' . $data['surname'].'<br/>'.
+					$subject = lang('c_emailtitle').' ['.$data['email'].']';
+					$str_content =  'Name:' . $data['firstname'].'<br/>'.
 									'E-mail:' . $data['email'].'<br/>'.
 									'Phone:' . $data['phone'].'<br/>'.
 									'Message:' . $data['content'];
 					$content = str_replace('TITLE_LIUS_LTF', $subject, str_replace('CONTENT_LIUS_LTF', $str_content, lang('c_emailadmincontent'))) ;
-					
+
 					$this->email->initialize($config);
 					$this->email->from($mailconfig['smtp_user'], lang('c_emailadminsend'));
-//					$this->email->from($data['email'], lang('c_emailadminsend'));
+//                    $this->email->from($data['email'], lang('c_emailadminsend'));
+                    $this->email->reply_to($data['email']);
 					$this->email->to($mailconfig['smtp_sendmail']);
 					$this->email->subject($subject);
 					$this->email->message($content);
