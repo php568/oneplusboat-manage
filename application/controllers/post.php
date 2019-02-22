@@ -61,10 +61,11 @@ class Post extends CI_Controller {
 					$config['crlf']="\r\n";
 					$config['newline']="\r\n";
 
-					$subject = lang('c_emailtitle').' ['.$data['email'].']';
+					$subject = lang('c_emailtitle').' ['.$data['email'].'] '.$data['title'];
 					$str_content =  'Name:' . $data['firstname'].'<br/>'.
 									'E-mail:' . $data['email'].'<br/>'.
 									'Phone:' . $data['phone'].'<br/>'.
+                                    'Subject:' . $data['title'].'<br/>'.
 									'Message:' . $data['content'];
 					$content = str_replace('TITLE_LIUS_LTF', $subject, str_replace('CONTENT_LIUS_LTF', $str_content, lang('c_emailadmincontent'))) ;
 
