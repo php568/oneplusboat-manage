@@ -2,11 +2,11 @@
     <h2 class="block__title block-title">Recent posts</h2>
     <div class="item-list">
         <ul>
-            <li class="first">
-                <a href="<?=site_url('category/news'.$langurl);?>" class="active">
-                    We are making the step forward!
-                </a>
-            </li>
+            <?php $tmpData = x6cms_modellist('article',19,'default',1,0);?>
+            <?php foreach($tmpData as $item):?>
+                <li class="first"><a href="<?=$item['url']?>" class="active"><?=$item['title']?></a></li>
+            <?php endforeach;?>
+            <?php unset($tempData,$item);?>
         </ul>
     </div>
     <div class="more-link">
