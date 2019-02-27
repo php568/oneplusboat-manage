@@ -2,7 +2,7 @@
     <h2 class="block__title block-title">最新新闻</h2>
     <div class="item-list">
         <ul>
-            <?php $tmpData = x6cms_modellist('article',19,'default',1,0);?>
+            <?php $tmpData = x6cms_modellist('article',50,'default',1,0);?>
             <?php foreach($tmpData as $item):?>
                 <li class="first"><a href="<?=$item['url']?>" class="active"><?=$item['title']?></a></li>
             <?php endforeach;?>

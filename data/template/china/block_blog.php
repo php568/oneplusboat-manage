@@ -3,7 +3,7 @@
     <div class="view view-blog-posts view-id-blog_posts view-display-id-block view-dom-id-b972849ff278f81452c7e3e3a644d509">
         <div class="view-content">
             <div class="views-row views-row-1 views-row-odd views-row-first views-row-last">
-                <?php $tmpData = x6cms_modellist('article',19,'default',1,0);?>
+                <?php $tmpData = x6cms_modellist('article',50,'default',1,0);?>
                 <?php foreach($tmpData as $item):?>
                 <div class="views-field views-field-field-photo-image">
                     <div class="field-content">
