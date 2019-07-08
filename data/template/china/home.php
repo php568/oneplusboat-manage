@@ -1,8 +1,8 @@
 
 <?php $this->load->view($config['site_template'].'/head');?>
 
-  <link type="text/css" rel="stylesheet" href="<?=$config['site_templateurl'];?>/videojs/video-js.css" />
-  <!--<link href="https://vjs.zencdn.net/7.4.1/video-js.css" rel="stylesheet">-->
+  <!--<link type="text/css" rel="stylesheet" href="<?=$config['site_templateurl'];?>/videojs/video-js.css" />-->
+  <link href="https://vjs.zencdn.net/7.4.1/video-js.css" rel="stylesheet">
   <link type="text/css" rel="stylesheet" href="<?=$config['site_templateurl'];?>/css/home.css" media="all"/>
 
   <!-- If you'd like to support IE8 (for Video.js versions prior to v7) -->
