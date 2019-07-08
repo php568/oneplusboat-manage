@@ -5,6 +5,8 @@
         {title:"视频1", isplay:false, type:"video/mp4", url: temp_url+"/sites/default/files/video/index-1.mp4", image:temp_url+"/sites/default/files/video/index-1.jpg", dateTime:"2018-12-25 21:30"},
         {title:"视频2", isplay:false, type:"video/mp4", url: temp_url+"/sites/default/files/video/index-2.mp4", image:temp_url+"/sites/default/files/video/index-2.jpg", dateTime:"2018-12-25 21:30"},
         {title:"视频3", isplay:false, type:"video/mp4", url: temp_url+"/sites/default/files/video/index-3.mp4", image:temp_url+"/sites/default/files/video/index-3.jpg", dateTime:"2018-12-25 21:30"},
+        {title:"视频4", isplay:false, type:"video/mp4", url: temp_url+"/sites/default/files/video/index-4.mp4", image:temp_url+"/sites/default/files/video/index-4.jpg", dateTime:"2018-12-25 21:30"},
+        {title:"视频5", isplay:false, type:"video/mp4", url: temp_url+"/sites/default/files/video/index-5.mp4", image:temp_url+"/sites/default/files/video/index-5.jpg", dateTime:"2018-12-25 21:30"},
     ];
 
     var data = {
