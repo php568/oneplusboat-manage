@@ -3,4 +3,5 @@ application/logs
 data/attachment
 data/cache
 data/*.log
+data/log/*
 test.php
