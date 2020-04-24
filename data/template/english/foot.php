@@ -10,7 +10,7 @@
     <div>© 2018-2019 OnePlus Boat</div>
     <div itemscope itemtype="">
       <span itemprop="name">OnePlus Boat</span>,
-      <span itemprop="streetAddress">Room 201 Building #19,Yinchun Rd No.1800</span>,
+      <span itemprop="streetAddress">Room 6233, Jindu RD 4299 XinMin Industrial Park</span>,
       <span itemprop="addressLocality">Minhang District</span>,
       <span itemprop="addressRegion">Shanghai</span>,
       <span itemprop="addressCountry">China</span>

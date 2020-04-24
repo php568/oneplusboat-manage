@@ -98,13 +98,13 @@
     }
     (function() {
         var map = new BMap.Map("dituContent");
-        var point = new BMap.Point(121.401427,31.03315);//定义一个中心点坐标
+        var point = new BMap.Point(121.3775333268,31.0788757716);//定义一个中心点坐标
         map.centerAndZoom(point, 15);
         map.enableScrollWheelZoom();
         var marker=new BMap.Marker(point);
         map.addOverlay(marker);
         var licontent="<b>上海简泊船舶有限公司</b><br>";
-        licontent+="<span><strong>地址：</strong>中国上海市闵行区银春路1800弄19号201</span><br>";
+        licontent+="<span><strong>地址：</strong>中国上海市闵行区金都路4299弄莘闵创业园6233室</span><br>";
         licontent+="<span><strong>联系人：</strong>焦女士</span><br>";
         licontent+="<span><strong>邮箱：</strong>ellen.jiao@liusgear.com</span><br>";
         licontent+="<span><strong>电话：</strong>(0086)18621935526</span><br>";

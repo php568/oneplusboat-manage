@@ -3,7 +3,7 @@
     <div itemscope="" itemtype="http://schema.org/PostalAddress">
         <p>Our Office is in :
             <span itemprop="name"><strong>OnePlus Boat</strong></span><br />
-            <span itemprop="streetAddress">Room 201 <br />Building #19,<br />Yinchun Rd No.1800</span><br />
+            <span itemprop="streetAddress">Room 6233, <br />Jindu RD 4299, <br />XinMin Industrial Park</span><br />
             <span itemprop="addressLocality">Minhang District</span>,<br />
             <span itemprop="addressRegion">Shanghai</span><br />
             <!--<span itemprop="postalCode">PO20 7BE</span><br />-->

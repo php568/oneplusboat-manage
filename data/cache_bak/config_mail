@@ -1,0 +1,1 @@
+a:3:{s:4:"time";i:1562518202;s:3:"ttl";i:2592000;s:4:"data";a:6:{s:9:"smtp_host";s:12:"smtp.163.com";s:9:"smtp_user";s:17:"jiaolei81@163.com";s:9:"smtp_pass";s:13:"0475neimenggu";s:9:"smtp_port";s:3:"465";s:13:"smtp_sendmail";s:23:"ellen.jiao@liusgear.com";s:9:"mail_type";s:4:"smtp";}}

@@ -1,4 +1,3 @@
-
 <?php $this->load->view($config['site_template'].'/head');?>
 <link type="text/css" rel="stylesheet" href="<?=$config['site_templateurl'];?>/css/dealers.css" media="all"/>
 
@@ -35,7 +34,7 @@
                                         </div>
                                         <div class="views-field views-field-name">
                                             <span class="field-content intro"><h3>OnePlus Boat Ltd</h3></span>
-                                            <span class="field-content intro">Add: Room201, Building 19, Yinchun Rd 1800, Minhang District Shanghai</span>
+                                            <span class="field-content intro">Add: Room 6233, Jindu RD 4299 XinMin Industrial Park, Minhang District. Shanghai</span>
                                             <span class="field-content intro">Contact: Ellen Jiao</span>
                                             <span class="field-content intro">T: 0086 186 2193 5526</a></span>
                                             <span class="field-content intro"><a href="mailto:ellen.jiao@liusgear.com">E: ellen.jiao@liusgear.com</a></span>

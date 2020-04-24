@@ -1,4 +1,3 @@
-
 <?php $this->load->view($config['site_template'].'/head');?>
 
   <!--<link type="text/css" rel="stylesheet" href="<?=$config['site_templateurl'];?>/videojs/video-js.css" />-->
@@ -31,13 +30,7 @@
               <div class="view-content">
                 <div id="flexslider-2" class="flexslider_2 layui-carousel">
                   <ul class="slides" carousel-item>
-                    <li>
-                      <div class="views-field views-field-field-slide-image">
-                        <div class="field-content">
-                          <img typeof="foaf:Image" src="<?=$config['site_templateurl'];?>/sites/default/files/690x428/1.jpg" data-original="<?=$config['site_templateurl'];?>/sites/default/files/690x428/1.jpg" width="690" height="428" alt=""/>
-                        </div>
-                      </div>
-                    </li>
+                   
                     <li>
                       <div class="views-field views-field-field-slide-image">
                         <div class="field-content">
@@ -48,70 +41,35 @@
                     <li>
                       <div class="views-field views-field-field-slide-image">
                         <div class="field-content">
-                          <img typeof="foaf:Image" src="<?=$config['site_templateurl'];?>/sites/default/files/690x428/3.jpg" data-original="<?=$config['site_templateurl'];?>/sites/default/files/690x428/3.jpg" width="690" height="428" alt=""/>
+                          <img typeof="foaf:Image" src="<?=$config['site_templateurl'];?>/sites/default/files/690x428/23.jpg" data-original="<?=$config['site_templateurl'];?>/sites/default/files/690x428/23.jpg" width="690" height="428" alt=""/>
                         </div>
                       </div>
                     </li>
-                    <li>
+                    <!--<li>
                       <div class="views-field views-field-field-slide-image">
                         <div class="field-content">
                           <img typeof="foaf:Image" src="<?=$config['site_templateurl'];?>/sites/default/files/690x428/4.jpg" data-original="<?=$config['site_templateurl'];?>/sites/default/files/690x428/4.jpg" width="690" height="428" alt=""/>
                         </div>
                       </div>
-                    </li>
-                    <li>
-                      <div class="views-field views-field-field-slide-image">
-                        <div class="field-content">
-                          <img typeof="foaf:Image" src="<?=$config['site_templateurl'];?>/sites/default/files/690x428/5.jpg" data-original="<?=$config['site_templateurl'];?>/sites/default/files/690x428/5.jpg" width="690" height="428" alt=""/>
-                        </div>
-                      </div>
-                    </li>
-                    <li>
+                    </li>-->
+                    <!--<li>
                       <div class="views-field views-field-field-slide-image">
                         <div class="field-content">
                           <img typeof="foaf:Image" src="<?=$config['site_templateurl'];?>/sites/default/files/690x428/6.jpg" data-original="<?=$config['site_templateurl'];?>/sites/default/files/690x428/6.jpg" width="690" height="428" alt=""/>
                         </div>
                       </div>
-                    </li>
-                    <li>
-                      <div class="views-field views-field-field-slide-image">
-                        <div class="field-content">
-                          <img typeof="foaf:Image" src="<?=$config['site_templateurl'];?>/sites/default/files/690x428/7.jpg" data-original="<?=$config['site_templateurl'];?>/sites/default/files/690x428/7.jpg" width="690" height="428" alt=""/>
-                        </div>
-                      </div>
-                    </li>
-                    <li>
+                    </li>-->
+                    <!--<li>
                       <div class="views-field views-field-field-slide-image">
                         <div class="field-content">
                           <img typeof="foaf:Image" src="<?=$config['site_templateurl'];?>/sites/default/files/690x428/8.jpg" data-original="<?=$config['site_templateurl'];?>/sites/default/files/690x428/8.jpg" width="690" height="428" alt=""/>
                         </div>
                       </div>
-                    </li>
+                    </li>-->
                     <li>
                       <div class="views-field views-field-field-slide-image">
                         <div class="field-content">
-                          <img typeof="foaf:Image" src="<?=$config['site_templateurl'];?>/sites/default/files/690x428/9.jpg" data-original="<?=$config['site_templateurl'];?>/sites/default/files/690x428/9.jpg" width="690" height="428" alt=""/>
-                        </div>
-                      </div>
-                    </li>
-                    <li>
-                      <div class="views-field views-field-field-slide-image">
-                        <div class="field-content">
-                          <img typeof="foaf:Image" src="<?=$config['site_templateurl'];?>/sites/default/files/690x428/10.jpg" data-original="<?=$config['site_templateurl'];?>/sites/default/files/690x428/10.jpg" width="690" height="428" alt=""/>
-                        </div>
-                      </div>
-                    </li>
-                    <li>
-                      <div class="views-field views-field-field-slide-image">
-                        <div class="field-content">
-                          <img typeof="foaf:Image" src="<?=$config['site_templateurl'];?>/sites/default/files/690x428/11.jpg" data-original="<?=$config['site_templateurl'];?>/sites/default/files/690x428/11.jpg" width="690" height="428" alt=""/>
-                        </div>
-                      </div>
-                    </li>
-                    <li>
-                      <div class="views-field views-field-field-slide-image">
-                        <div class="field-content">
-                          <img typeof="foaf:Image" src="<?=$config['site_templateurl'];?>/sites/default/files/690x428/12.jpg" data-original="<?=$config['site_templateurl'];?>/sites/default/files/690x428/12.jpg" width="690" height="428" alt=""/>
+                          <img typeof="foaf:Image" src="<?=$config['site_templateurl'];?>/sites/default/files/690x428/22.jpg" data-original="<?=$config['site_templateurl'];?>/sites/default/files/690x428/22.jpg" width="690" height="428" alt=""/>
                         </div>
                       </div>
                     </li>
@@ -122,10 +80,52 @@
                         </div>
                       </div>
                     </li>
-                    <li>
+					<li>
                       <div class="views-field views-field-field-slide-image">
                         <div class="field-content">
-                          <img typeof="foaf:Image" src="<?=$config['site_templateurl'];?>/sites/default/files/690x428/14.jpg" data-original="<?=$config['site_templateurl'];?>/sites/default/files/690x428/14.jpg" width="690" height="428" alt=""/>
+                          <img typeof="foaf:Image" src="<?=$config['site_templateurl'];?>/sites/default/files/690x428/15.jpg" data-original="<?=$config['site_templateurl'];?>/sites/default/files/690x428/15.jpg" width="690" height="428" alt=""/>
+                        </div>
+                      </div>
+                    </li>
+					<li>
+                      <div class="views-field views-field-field-slide-image">
+                        <div class="field-content">
+                          <img typeof="foaf:Image" src="<?=$config['site_templateurl'];?>/sites/default/files/690x428/16.jpg" data-original="<?=$config['site_templateurl'];?>/sites/default/files/690x428/16.jpg" width="690" height="428" alt=""/>
+                        </div>
+                      </div>
+                    </li>
+					<li>
+                      <div class="views-field views-field-field-slide-image">
+                        <div class="field-content">
+                          <img typeof="foaf:Image" src="<?=$config['site_templateurl'];?>/sites/default/files/690x428/17.jpg" data-original="<?=$config['site_templateurl'];?>/sites/default/files/690x428/17.jpg" width="690" height="428" alt=""/>
+                        </div>
+                      </div>
+                    </li>
+					<li>
+                      <div class="views-field views-field-field-slide-image">
+                        <div class="field-content">
+                          <img typeof="foaf:Image" src="<?=$config['site_templateurl'];?>/sites/default/files/690x428/18.jpg" data-original="<?=$config['site_templateurl'];?>/sites/default/files/690x428/18.jpg" width="690" height="428" alt=""/>
+                        </div>
+                      </div>
+                    </li>
+					<li>
+                      <div class="views-field views-field-field-slide-image">
+                        <div class="field-content">
+                          <img typeof="foaf:Image" src="<?=$config['site_templateurl'];?>/sites/default/files/690x428/19.jpg" data-original="<?=$config['site_templateurl'];?>/sites/default/files/690x428/19.jpg" width="690" height="428" alt=""/>
+                        </div>
+                      </div>
+                    </li>
+					<li>
+                      <div class="views-field views-field-field-slide-image">
+                        <div class="field-content">
+                          <img typeof="foaf:Image" src="<?=$config['site_templateurl'];?>/sites/default/files/690x428/20.jpg" data-original="<?=$config['site_templateurl'];?>/sites/default/files/690x428/20.jpg" width="690" height="428" alt=""/>
+                        </div>
+                      </div>
+                    </li>
+					<li>
+                      <div class="views-field views-field-field-slide-image">
+                        <div class="field-content">
+                          <img typeof="foaf:Image" src="<?=$config['site_templateurl'];?>/sites/default/files/690x428/21.jpg" data-original="<?=$config['site_templateurl'];?>/sites/default/files/690x428/21.jpg" width="690" height="428" alt=""/>
                         </div>
                       </div>
                     </li>

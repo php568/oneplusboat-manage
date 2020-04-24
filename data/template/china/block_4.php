@@ -6,7 +6,7 @@
             <span itemprop="addressCountry">中国</span>,
             <span itemprop="addressRegion">上海市</span>,
             <span itemprop="addressLocality">闵行区</span>,<br />
-            <span itemprop="streetAddress">银春路1800弄19号201</span><br />
+            <span itemprop="streetAddress">金都路4299弄莘闵创业园6233室</span><br />
         </p>
     </div>
     <p>
