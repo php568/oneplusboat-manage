@@ -130,16 +130,16 @@
                                             </div>
                                         </div>
                                         <div class="views-field views-field-name">
-                                            <span class="field-content intro"><h3>2WIN</h3></span>
-                                            <span class="field-content intro">Add: 14 Rue Antia Conti ZI perigny 17180 PERIGNY FRANCE</span>
-                                            <span class="field-content intro">Contact: Jean-Noel Heraud</span>
-                                            <span class="field-content intro">T: 0033(0)5 46 44 22 82</span>
-                                            <span class="field-content intro"><a href="mailto:contact@2-win.fr">E: contact@2-win.fr</a></span>
-                                            <span class="field-content intro"><a href="http://www.2-win.fr" target="_blank">www.2-win.fr</a></span>
+                                            <span class="field-content intro"><h3>YACHTING ACCASTILLAGE</h3></span>
+                                            <span class="field-content intro">Add: 16 rue de la gralette  17137 Nieul sur mer – France</span>
+                                            <span class="field-content intro">Contact: Jean-Noël HERAUD</span>
+                                            <span class="field-content intro">T: 0033546526054</span>
+                                            <span class="field-content intro"><a href="mailto:contact@nautic-seaty.fr">E: contact@nautic-seaty.fr</a></span>
+                                            <span class="field-content intro"><a href="http://www.yachting-accastillage.fr" target="_blank">www.yachting-accastillage.fr</a></span>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="views-row views-row-2 views-row-last">
+                                <div class="views-row views-row-2">
 
                                     <div class="views-column views-column-1 views-column-first">
                                         <div class="views-field views-field-field-image-tax">
@@ -177,6 +177,35 @@
                                             <span class="field-content intro">T: 012343 513002</span>
                                             <span class="field-content intro"><a href="mailto:sales@ibisailing.co.uk">E: sales@ibisailing.co.uk</a></span>
                                             <span class="field-content intro"><a href="http://www.racingdinghies.co.uk" target="_blank">www.racingdinghies.co.uk</a></span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="views-row views-row-3 views-row-last">
+                                    <div class="views-column views-column-1 views-column-first">
+                                        <div class="views-field views-field-field-image-tax">
+                                            <div class="field-content">
+                                                <a href="#">
+                                                    <img typeof="foaf:Image"
+                                                         src="<?=$config['site_templateurl'];?>/sites/default/files/parts/flag/Poland.jpg"
+                                                         width="120" height="80" alt="Poland" />
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="views-field views-field-name">
+                                            <span class="field-content intro"><h3>Pro-Boats by S-KONCEPT</h3></span>
+                                            <span class="field-content intro">Add: ul.Rｨｮzana 444 43-376 Godziszka Poland</span>
+                                            <span class="field-content intro">Contact:Marcin Sanetra</span>
+                                            <span class="field-content intro">T: 0048501-314-144</span>
+                                            <span class="field-content intro"><a href="mailto:info@pro-boats.com">E: info@pro-boats.com</a></span>
+                                            <span class="field-content intro"><a href="http://www.oneplusboat.pl" target="_blank">www.oneplusboat.pl</a></span>
+                                        </div>
+                                    </div>
+                                    <div class="views-column views-column-2 views-column-last">
+                                        <div class="views-field views-field-field-image-tax">
+                                            <div class="field-content"></div>
+                                        </div>
+                                        <div class="views-field views-field-name">
+                                            <span class="field-content"></span>
                                         </div>
                                     </div>
                                 </div>
